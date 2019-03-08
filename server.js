@@ -90,7 +90,7 @@ router.post("/login", function(req, res){
 });
 
 
-  console.log(username + ", " + password)
+  console.log("Username:" + username + ", Password:" + password)
 });
 
 router.get("/",function(req,res){
