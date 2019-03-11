@@ -1,4 +1,6 @@
 import string
+import re
+
 def stripNonAlphaNum(text):
     import re
     return re.compile(r'\W+', re.UNICODE).split(text)
@@ -63,17 +65,21 @@ stopwords += ['whereafter', 'whereas', 'whereby', 'wherein', 'whereupon']
 stopwords += ['wherever', 'whether', 'which', 'while', 'whither', 'who']
 stopwords += ['whoever', 'whole', 'whom', 'whose', 'why', 'will', 'with']
 stopwords += ['within', 'without', 'would', 'yet', 'you', 'your']
-stopwords += ['yours', 'yourself', 'yourselves']
+stopwords += ['yours', 'yourself', 'yourselves', '0', '1', '2', '3', '4']
+stopwords += ['5', '6', '7', '8', '9', '10', '11', '2017', '']
 
 def removeStopwords(wordlist, stopwords):
     return [w for w in wordlist if w not in stopwords]
 
-
-document_text = open('test.txt', 'r')
+doc = input()
+document_text = open(doc, 'r')
 text_string = document_text.read().lower()
 
+
 fullwordlist = stripNonAlphaNum(text_string)
-wordlist = removeStopwords(fullwordlist, stopwords)
+str1 = ' '.join(fullwordlist)
+match_pattern = re.findall(r'\b[a-z]{3,30}\b', str1)
+wordlist = removeStopwords(match_pattern, stopwords)
 dictionary = wordListToFreqDict(wordlist)
 sorteddict = sortFreqDict(dictionary)
 
@@ -81,4 +87,4 @@ sorted_freq = [pair[0] for pair in sorted(dictionary.items(), key=lambda item: i
 sorted_freq.reverse()
 
 for words in sorted_freq[:10]:
-    print(words)
+    print('*' + words + '*')

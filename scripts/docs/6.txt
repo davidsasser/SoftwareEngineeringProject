@@ -1,0 +1,35 @@
+Accident  Analysis  and  Prevention  81  (2015)  14–23
+
+Contents  lists  available  at  ScienceDirect
+
+Accident  Analysis  and  Prevention
+
+j o u r n a  l  h o m e p a g e :  w w w . e  l s e v i e r . c o m / l o c a t e / a a p
+
+Analyzing  pedestrian  crash  injury  severity  at  signalized  and
+non-signalized  locations
+Kirolos  Haleem a,*,  Priyanka  Alluri b,1,  Albert  Gan c,2
+a Transportation  Safety  Consultant,  AgileAssets,  Inc.,  3001  Bee  Caves  Road,  Suite  200,  Austin,  TX  78746,  USA
+b Lehman  Center  for  Transportation  Center,  Department  of  Civil  and  Environmental  Engineering,  Florida  International  University,  10555  West  Flagler  Street,
+EC  3680,  Miami,  FL  33174,  USA
+c Department  of  Civil  and  Environmental  Engineering,  Florida  International  University,  10555  West  Flagler  Street,  EC  3680,  Miami,  FL  33174,  USA
+
+A  R  T  I  C  L  E 
+
+I  N  F  O
+
+A  B  S  T  R  A  C  T
+
+Article  history:
+Received  13  August  2014
+Received  in  revised  form  21  April  2015
+Accepted  22  April  2015
+Available  online  2  May  2015
+
+Keywords:
+Pedestrian  safety
+Injury  severity
+Mixed  logit  model
+Countermeasures
+
+This  study  identi

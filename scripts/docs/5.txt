@@ -1,0 +1,1407 @@
+Article
+
+Pedestrian Safety and the Built Environment:
+A Review of the Risk Factors
+
+Philip Stoker1, Andrea Garfinkel-Castro1,
+Meleckidzedeck Khayesi2, Wilson Odero3,
+Martin N. Mwangi4, Margie Peden2, and Reid Ewing1
+
+Journal of Planning Literature
+2015, Vol. 30(4) 377-392
+ª The Author(s) 2015
+Reprints and permission:
+sagepub.com/journalsPermissions.nav
+DOI: 10.1177/0885412215595438
+jpl.sagepub.com
+
+Abstract
+Urban and regional planning has a contribution to make toward improving pedestrian safety, particularly in view of the fact that
+about 273,000 pedestrians were killed in road traffic crashes in 2010. The road is a built environments that should enhance safety
+and security for pedestrians, but this ideal is not always the case. This article presents an overview of the evidence on the risks that
+pedestrians face in the built environment. This article shows that design of the roadway and development of different land uses can
+either increase or reduce pedestrian road traffic injury. Planners need to design or modify the built environment to minimize risk
+for pedestrians.
+
+Keywords
+pedestrian safety, risk factors, built environment
+
+Introduction
+
+Road traffic injuries are the eighth leading cause of death glob-
+ally, and the leading cause of death for young people aged fif-
+teen to twenty-nine (World Health Organization 2013a).
+Current trends suggest that by 2030 road traffic deaths will
+become the fifth leading cause of death unless urgent action
+is taken (Peden et al. 2004; World Health Organization
+2013a). In particular, nations such as India, China, and other
+countries with burgeoning populations and rapidly growing
+motorization and urbanization face a substantial increase in
+pedestrian injuries and fatalities (Zegeer and Bushell 2012).
+Now that over half of the global population lives in cities, the
+same concern for pedestrian safety is likely wherever urbani-
+zation and motorization are causing more people to be on the
+roads.
+
+Of the over one million road traffic deaths annually, nearly
+one-quarter (22 percent) are pedestrians, 5 percent are cyclists,
+23 percent are motorcyclists, 31 percent are car occupants, and
+19 percent are other groups or unspecified (World Health Orga-
+nization 2013a). Another fifty million people worldwide are
+injured as a result of traffic collisions (World Health Organiza-
+tion 2013a). Several of the established causes of these fatalities
+and injuries are related to the built environment: traffic volumes,
+excessive roadway speed, poor lighting, and urban development
+patterns. As planners, we need to recognize what risks to pedes-
+trians result from the design of the built environment.
+
+Many of the solutions to reducing these risk factors are
+within the range of influence and control of planners. However,
+to effectively address and mitigate risks to pedestrians, plan-
+ners need to understand the risk factors that affect pedestrian
+
+safety. We examine the built environment as a factor that raises
+or minimizes the probability of pedestrian injury and death, in
+line with the definition of risk offered in the World Health
+Report of 2002 (World Health Organization 2002). This litera-
+ture review synthesizes some of the most recent research on
+pedestrian safety and the built environment from around the
+world. This article begins by briefly describing the types of
+pedestrians. We then present a conceptual model of the rela-
+tionship between the built environment and the pedestrian
+safety and present evidence of the risk factors pedestrians face
+in the built environment. We highlight the connections between
+the risk factors. This review can serve as a resource for planners
+to understand the risk factors, and how the risk factors interact,
+in order to guide safety-oriented policies and design.
+
+Method and Approach
+
+We conducted the literature review on key databases (e.g.,
+SCOPUS, Web of Science, PubMed, and Google Scholar)
+using the following key words to find relevant literature:
+
+1 City and Metropolitan Planning, University of Utah, Salt Lake City, UT, USA
+2 Department of Violence and Injury Prevention, World Health Organization,
+Geneva, Switzerland
+3 School of Public Health, Maseno University, Kisumu, Kenya
+4 Wageningen University, Wageningen, the Netherlands
+
+Corresponding Author:
+Philip Stoker, City and Metropolitan Planning, University of Utah, 375 S. 1530 E.
+#235 AAC, Salt Lake City, UT 84108, USA.
+Email: philip.a.stoker@gmail.com
+
+378
+
+Journal of Planning Literature 30(4)
+
+Table 1. Pedestrian Categories.
+
+Pedestrian Type
+
+Description
+
+Relative Risk
+Factor
+
+Source
+
+Young children
+
+Approximately 21 percent of road traffic deaths
+
+Very high
+
+Barton and Schwebel (2007), Peden
+
+involve young children
+
+(2004), and Peden et al. (2008)
+
+Young adults
+
+For fifteen- to twenty-one-year-olds, pedestrian
+
+Above average Hilton (2006)
+
+fatalities are the leading cause of death
+
+Male pedestrians
+
+Males are overrepresented in pedestrian fatalities in
+
+Above average Goren et al. (2005), Durak et al. (2008),
+
+Gender roles
+
+Women and girls in low-income countries walk more
+
+Above average
+
+Rosenbloom and Plessis-Fraissard
+
+most but not all studies
+
+and Tom and Granie´ (2011)
+
+Elderly
+
+and transport more household goods than male
+counterparts, increasing their risk as pedestrians
+The elderly have the highest risk of mortality of all
+
+pedestrians when involved in vehicle collisions
+
+(2009) and Roy (2009)
+
+Very high
+
+Assailly (1997), Davies et al. (1999),
+
+Vyrostek, Annest, and Ryan (2004),
+Retting et al. (2003), Gawryszewski
+and Rodrigues (2006), and Ponnaluri
+and Nagar (2010)
+
+Low socioeconomic
+
+A strong inverse relationship is found between
+
+High
+
+Marcin et al. (2003), Cubbin (2002), and
+
+status
+
+Intoxicated or
+
+distracted
+pedestrians
+
+socioeconomic status and risk of pedestrian injuries
+and fatalities
+
+Azetsop (2010)
+
+Intoxication and distraction from mobile devices put
+
+High
+
+Clayton and Colgan (2001), Stavrinos,
+
+pedestrians at higher risk for pedestrian injuries
+and fatalities
+
+Byington, and Schwebel (2009),
+Nasar, Hecht, and Wener (2008), and
+Hatfield and Murphy (2007)
+
+Disabled pedestrians
+
+Visually impaired pedestrians are elevated at risk
+
+High
+
+Guth et al. 2005 and Xiang et al. 2006
+
+Pedestrians in low-
+income countries
+
+from drivers who yield inconsistently and unreliably;
+disabled youths are especially vulnerable pedestrians
+
+Pedestrians in low-income countries are particularly
+
+Above average
+
+Peden and Hyder (2002), Peden et al.
+
+vulnerable to injury and death from collisions,
+attributable to increasing urbanization, and
+motorization inadequate pedestrian facilities, lack
+of pedestrian safety education, and access to
+emergency health care
+
+(2004), and Bishair et al. (2006)
+
+pedestrian safety, pedestrian accidents, pedestrian injuries,
+pedestrian fatalities, pedestrian crashes, pedestrian education,
+pedestrian education in developing countries, and so on. We
+focused primarily on the most recent research available.
+
+The initial review of research articles and their bibliographies
+provided a wealth of follow-up citations. Tracing backward, we
+compiled and reviewed both published and unpublished reports,
+as well as published academic articles. The literature on pedes-
+trian safety and the relationship between the pedestrian safety
+and the built environment is vast and our modest effort in this
+article is to provide an overview of the evidence that may be
+used for decisions by planners. Apart from the literature on
+pedestrian safety, there is the issue of the most appropriate way
+to organize a literature review that cuts across countries at differ-
+ent levels of development as well as varying conditions in the
+built environment. We explored different options, including
+focusing on different development contexts or selected themes
+as the basis to present the literature. We opted to use selected
+themes in an effort to show some variation in pedestrian road
+traffic injuries by contextual factors such as countries and
+rural/urban sites. It is a modest effort at comparative analysis and
+we hope readers will isolate the key risk factors presented
+through a mix of contexts from around the world. We believe
+
+planners need to appreciate the mix of environments in which
+pedestrian crashes occur.
+
+Types of Pedestrians
+
+Pedestrians form a mixed group of people with respect to age,
+gender, travel behavior, and socioeconomic status (SES). This
+body of research and literature focuses specifically on pedes-
+trians, how they can be categorized, and their relative risk fac-
+tors. While certain categories of pedestrians are specific to
+locale (such as low socioeconomic pedestrians or gender-
+related roles in low-income countries), and although research
+is typically carried out within regional or national geographies,
+much research is generalizable to a pedestrian type. Table 1
+presents broad categories of pedestrian types, described in
+detail subsequently, that are at elevated risk for pedestrian-
+related injuries and fatalities. A general ranking of relative risk
+is assigned, based on the literature: severity of risk identified
+by research and the volume of confirmatory research and lit-
+erature. Sources identified in Table 1 represent major works,
+and further additional literature is found by types mentioned
+subsequently.
+
+Stoker et al.
+
+379
+
+Young Children and Young Adults
+
+Children are particularly at risk in road traffic crashes (Assailly
+1997; Davies et al. 1999; Vyrostek, Annest, and Ryan 2004;
+Retting et al. 2003; Gawryszewski and Rodrigues 2006; World
+Health Organization 2009; Ponnaluri and Nagar 2010).
+Approximately 21 percent of road traffic fatalities are children,
+resulting in an average of 720 child deaths related to road
+traffic crashes daily (Peden et al. 2008). Traffic injuries are the
+second leading cause of death worldwide for young children
+(Peden 2004) and are the leading cause of childhood disability
+worldwide (Peden et al. 2008).
+
+Some explanations of why children are at particular
+risk include their underdeveloped abilities and perceptions
+(Constant and Lagarde 2010) and greater variability in their
+actions (Pitcairn and Edlmann 2000). Many children begin to
+experience mobility and independence at a young age but are
+not yet cognitively capable of safely navigating traffic condi-
+tions (Barton and Schwebel 2007). Compounding this risk is
+their small size, which makes them both less visible to drivers
+and more vulnerable to injury and death in collisions (Barton
+and Schwebel 2007).
+
+Some studies have shown that as a parent’s level of education
+increases, the risk of child pedestrian injury decreases (Agran
+et al. 1998; Pless, Verreault, and Tenina 1989; Rivara and Barber
+1985). However, it is not parental education alone that influ-
+ences risk. In an experiment testing the effects of parental super-
+vision, Barton and Schwebel
+found that parental
+supervision in pedestrian crossings moderated the risky behavior
+children exhibited. Interestingly, though, if parents display risky
+behavior, the children will do the same. In a survey on child–par-
+ent interaction, mothers were much more likely than other fam-
+ily members to provide some form of road safety education and
+set a good example as safe road users while pointing out unsafe
+behaviors by others (Green et al. 2008).
+
+(2007)
+
+The school–home journey is a point of considerable expo-
+sure and risk for children. Roberts (1995) found strong evi-
+dence that children accompanied by an adult during the
+school–home journey significantly reduce their risk of injury
+or death. The Walking School Bus and Safe Routes to School
+are two of a number of school- and community-based pro-
+grams designed to increase children’s safety during the walk-
+ing journey to and from school (Heelan et al. 2009; Mendoza,
+Levinger, and Johnston 2009), and while these are generally
+successful (Boarnet et al. 2005), they have some critics (Collins
+and Kearns 2005; Kearns, Collins, and Neuwelt 2003). These
+critics stress that the predominance of motorized travel and
+design standards to accommodate and prioritize travel by cars
+outweighs the benefits derived from safe travel programs to and
+from school. Until design standards are changed, these programs
+are unlikely to really address the heart of the problem.
+
+Male Pedestrians
+
+Many studies find that male pedestrians of all ages are over-
+represented in pedestrian collisions. Almost two-thirds of
+
+children killed as pedestrians are male, and they have a death
+rate of 57 percent higher than of female children (Goren et al.
+2005; Durak et al. 2008; Tom and Granie´ 2011). Some
+researchers suggest that males are more likely than females
+to violate pedestrian rules (Tom and Granie´ 2011). However,
+other studies find no relationship between a pedestrian’s sex
+and their risk for injury or mortality (Moe 2008; Ibrahim
+et al. 2012; Dandona et al. 2008). We report findings that have
+found that male pedestrians are overrepresented in pedestrian
+collisions. One explanation is a willingness to engage in risky
+behaviors. However, we follow this section with the ‘‘Gender
+roles’’ subsection and report findings that in certain situations,
+women are at greater risk as pedestrians than males.
+
+Gender Roles
+
+In low-income countries, gender-based roles factor enormously
+in the time men versus women spend as pedestrians. Walking,
+as a form of transport, falls on girls and women far more than
+boys and men (Rosenbloom and Plessis-Fraissard 2009). In the
+forty-five poorest countries in the world, where one-fifth of the
+world’s population lives, women walk more and far more often
+carry heavy loads of household goods that include children,
+water, and wood (Rosenbloom and Plessis-Fraissard 2009; Roy
+2009); this is particularly so in sub-Saharan Africa. In addition
+to hazards resulting from roads that are poorly designed, devel-
+oped, and maintained (Rosenbloom and Plessis-Fraissard
+2009), women in developing countries are highly vulnerable
+pedestrians due to cultural conditions that leave them subject
+to ‘‘sexual harassment, crime, violence . . . pollution and
+noise’’ (Seedat, MacKenzie, and Mohad 2006, 150).
+
+Despite the load-carrying burdens placed on women in
+many parts of the world, minimal research has been conducted
+to date to identify precisely the added risk factors to women
+under these circumstances. Extrapolating from the literature
+on the impacts of backpack loads to mobility (see Wang, Pas-
+coe, and Weimar 2001; LaFiandra et al. 2003; Chow et al.
+2005; Negrini and Carabalona 2002), it is conceivable that
+women with portage (loads) are at measurably higher risk for
+vehicle–pedestrian crashes than are men. The noted lack of
+research on gendered pedestrian issues in low-income countries
+continues to leave many questions unanswered (Porter 2002,
+2008; Rosenbloom and Plessis-Fraissard 2009).
+
+Elderly Pedestrians
+
+The number of older persons (those who are sixty years and
+over) is growing steadily in the world. In 2013, there were
+841 million older persons in the world (United Nations
+2013). This number is expected to more than double, to more
+than two billion in 2050. It is also projected that older persons
+are to exceed the number of children for the first time in 2047
+(United Nations 2013). There is global variation in the distribu-
+tion of the population of older persons, with about two-thirds of
+the world’s older persons living in developing countries. It is
+estimated that by 2050, nearly eight in ten of the world’s older
+
+380
+
+Journal of Planning Literature 30(4)
+
+population will live in the world’s less developed regions
+(United Nations 2013). There is also variation in the older pop-
+ulation. Analysis shows that the population aged eighty years
+or over is occurring at a faster pace in the less developed
+regions than in the more developed regions (United Nations
+2013). The aging population has implications for transport
+planning, especially in ensuring safe accessibility of older per-
+sons to services and facilities as they fulfil their roles in society.
+Walking is the primary mode of transportation for the
+elderly worldwide (Siram et al. 2011) and an important source
+of independence for the elderly (Langlois et al. 1997), provid-
+ing important health benefits, as well (Kerr, Rosenberg, and
+Frank 2012). As pointed out by Whitelegg (1993), older people
+need special consideration in the design of the built environ-
+ment and road traffic environment in which they live and where
+they access local shops and services such as trips to the doctor,
+dentist, optician, and other services used intensively by this
+age-group. Studies on aging and transport also indicate that
+pedestrian safety is an important safety concern for the elderly
+(Peden et al. 2004; Whitelegg 2012). Several factors work
+together to increase the risk of older pedestrians (World Health
+Organization 2013b):
+
+greater injury severity when a crash occurs.
+
+react quickly in imminent danger to avoid a crash.
+
+ Deterioration in visual acuity may have a negative
+impact on their ability to cross the road safely. In gen-
+eral, older pedestrians look less at traffic and accept sig-
+nificantly smaller gaps in traffic when crossing the road
+than younger pedestrians.
+ Reduced mobility can render older pedestrians unable to
+ Underlying health conditions or frailty can result in
+ Reduced speed when crossing the road: the speed of
+elderly pedestrians does not itself increase risk; rather,
+the risk comes from the speed of the traffic and, in par-
+ticular, from automated signals that do not allow suffi-
+cient time for slower pedestrians to cross safely and
+completely. In many municipalities, the assumed walk-
+ing speed used to set crossing times at signalized cross-
+ings is faster than an older person can walk, leaving
+them stranded on the road when the signal phase changes
+to allow vehicle movement (Job et al. 1998). Whitelegg
+(1993) points out that transport planning and practice
+based on encouraging motorization and car-based trips
+achieves its success by stealing time from other groups
+especially elderly pedestrians who must now spend more
+time waiting to cross a road or be diverted through an
+unpleasant underpass; having to negotiate ugly metal bar-
+riers that obstruct direct walking routes; or find that local
+services they prefer to use have closed and they must now
+travel longer distances to shopping centers, hospitals, or
+clinic because they have relocated to more inaccessible,
+pedestrian-unfriendly locations.
+
+The combined effects of the above-mentioned risks are
+revealed in research, showing that the elderly suffer the highest
+
+mortality rates in pedestrian crashes (Small and Sheedy 2006;
+Bhalla et al. 2009; Zhao et al. 2010; Bartels et al. 2010). Studies
+unanimously find that the severity of injury from a traffic colli-
+sion is related to the resilience of the pedestrian (Methorst et al.
+2010), with elderly pedestrians likely to experience more
+trauma than other adult pedestrians (Demetriades et al. 2004).
+
+Low SES Pedestrians
+
+SES is a mediating factor of pedestrian risk and injury
+(Sharples et al. 1990; Marcin et al. 2003; Cubbin 2002; Azetsop
+2010), with a strong inverse association to fatal
+injuries
+(Cubbin 2002). A majority of child pedestrian injuries are asso-
+ciated with low income and poverty status (Rivara and Barber
+1985). In the United States, children from families earning less
+than US$20,000/year are seven times more likely to be injured
+than children from families earning more than US$30,000/year
+(Mueller, Rivara, and Bergman 1988). Chakravarthy et al.
+(2010) found that the percentage of the population living in
+low-income households is the strongest predictor of pedestrian
+injuries, with pedestrian crashes four times more likely in poor
+neighborhoods. This finding is repeated in a study that found
+that the risk of injury for children in the lowest socioeconomic
+stratum is more than twice that of children in higher SES cate-
+gories (Roberts et al. 1995). A further study found that the risk
+of injury for children in the lowest socioeconomic stratum is
+more than twice that of children in higher SES categories
+(Roberts et al. 1995). A study of Buffalo, New York, found
+bicycle and pedestrian crashes were related to some SES
+factors (ethnicity and educational status) but not all factors
+(income), and land use played a factor in crashes, while
+infrastructure impacts were minimal (Delmelle, Thill, and
+Ha 2012).
+
+While factors related to poverty, such as age, education, lan-
+guage fluency, and population density do not explain the
+effects of poverty on pedestrian injuries, exposure explains
+some of the increased risk. A survey of Indian children in
+Hyderabad reported that as household income increased, the
+proportion of pedestrian trips decreased and trips by bicycle
+or motorized two-wheeled vehicles increased, significantly
+reducing the likelihood of pedestrian injury for children in
+the highest household income quartile (Dandona et al. 2008).
+A similar pattern is observed internationally, where higher
+income countries record lower levels of pedestrian activity and
+lower levels of pedestrian fatalities, whereas lower- and
+middle-income countries experience higher levels of both
+(World Health Organization 2009).
+
+Intoxicated or Distracted Pedestrians
+
+As temporary conditions, these two statuses are combined into
+a single type of pedestrian, representing high though temporal
+risk. Research suggests that intoxicated pedestrians are at sig-
+nificantly higher risk of injury (Clayton and Colgan 2001). In
+a review of Australian studies, Holubowycz (1995) determined
+that 20–30 percent of pedestrians involved in collisions had
+
+Stoker et al.
+
+381
+
+blood alcohol content (BAC) levels in excess of 0.15 g/dl, with
+higher BAC levels more frequently resulting in fatalities.
+Peden et al. (2004) found that in South Africa, alcohol was a
+factor in over 61 percent of fatal pedestrian collisions. A recent
+study in the United Kingdom concluded that nearly half of all
+pedestrians killed in road traffic collisions had been drinking
+(Keigan and Tunbridge 2003).
+
+Mobile electronic devices appear overall
+
+to present an
+increased risk to pedestrian safety (Hatfield and Murphy
+2007; Nasar, Hecht, and Wener 2008; Neider et al. 2010;
+Stavrinos, Byington, and Schwebel 2009). Talking on a mobile
+phone is shown to reduce situational awareness, creating poten-
+tially treacherous environments for pedestrians. A study by
+Nasar, Hecht, and Wener (2008) found that mobile phone users
+engaging in conversation were significantly more likely to
+make unsafe road crossing decisions compared to subjects not
+using mobile devices. The evidence on the safety effects of per-
+sonal music devices is less clear than it is for mobile phones.
+One study using a virtual environment found subjects operating
+a hands-free mobile phone were more likely to make dangerous
+road crossing decision than those using electronic music
+devices (Neider et al. 2010). Another similar study found that
+subjects using either a mobile phone or a music device were
+at increased risk of being hit in a virtual environment (Schwe-
+bel et al. 2012). Walker et al. (2012) found little difference in
+cautionary behavior between pedestrians using versus not using
+mobile music devices. Finally, Hatfield and Murphy (2007),
+Nasar, Hecht, and Wener (2008), and Stavrinos, Byington,
+and Schwebel (2009) all conclude that the use of cell phones,
+earphones, and other electronic devices are distractions that
+increase the risk of injury or death for pedestrians.
+
+Disabled Pedestrians
+
+Pedestrians with physical disabilities do not comprise a high
+number of pedestrians overall, yet are at particularly high risk
+for injury or death. Visually impaired pedestrians were found to
+have greater difficulty navigating higher volume, multiple-lane
+roundabouts compared to single lane roundabouts (Guth et al.
+2005). They also found that drivers were unreliable and incon-
+sistent in their willingness to yield to blind pedestrians, even
+when using canes or guide dogs (Guth et al. 2005). Research
+on disabled pedestrians aged five to seventeen found they were
+five times more likely to be involved in a collision compared to
+those without a disability (Xiang et al. 2006).
+
+Pedestrians in Low-income Countries
+
+Nearly all countries with the highest absolute numbers and
+rates of pedestrian fatalities are developing countries (Toroyan
+2009). Approximately 96 percent of children killed worldwide
+due to road traffic injuries live in low- and middle-income coun-
+tries (Peden et al. 2004). Pedestrians account for 42 percent of all
+road traffic deaths in Delhi, India, and 38 percent in Colombo,
+Sri Lanka (Bishair et al. 2006). The continuing levels of growth
+of urbanization/suburbanization and motorization now occurring
+
+Figure 1. Conceptual framework linking the built environment to
+pedestrian safety.
+
+in developing nations, pedestrian injuries, and deaths potentially
+jeopardize the pursuit of health equity (Peden and Hyder 2002;
+Bishair et al. 2006; Wilkinson and Marmot 2003). Low-
+income countries are particularly challenged to allocate funding
+for pedestrian facilities and services (Zegeer and Bushell 2012),
+making road crossing especially dangerous due to poor lighting,
+heavy- and high-speed traffic, limited traffic law enforcement,
+lack of safety education, and poor access to emergency health
+facilities (Berger and Mohan 1996; Nakitto et al. 2008).
+
+The Built Environment and Pedestrian Safety
+
+The physical context of pedestrian safety is the built environ-
+ment, the focus of this part of the article. The conceptual frame-
+work relating the built environment
+to pedestrian risk is
+presented in Figure 1. The framework is organized by scale,
+from regional scale at the top of the figure to street scale at the
+bottom of the figure. We account for interactions between
+the spatial and administrative scales: development patterns of
+the built environment at the regional scale, such as density,
+urban sprawl, and regional development all produce character-
+istics of the built environment at the local scale: pedestrian
+infrastructure and roadway design. For example, in a rural
+region, there is likely to be little pedestrian infrastructure and
+roadway designs typically facilitate auto travel but do not
+accommodate pedestrians. Conversely, in highly dense urban
+settings, there may be more facilities for pedestrians and the
+roadway design may be more accommodating to pedestrians.
+In either case, the characteristics of the built environment at the
+local scale produce traffic and pedestrian conditions related to
+
+382
+
+Journal of Planning Literature 30(4)
+
+pedestrian safety: visibility, traffic volumes, and traffic speed.
+The visibility of pedestrians may increase or decrease depend-
+ing on pedestrian infrastructure such as crossing lights. Or there
+may be characteristics of roadway and urban design that
+increase visibility such as elevated crossings and street lights.
+Traffic volumes and traffic speed are affected primarily by
+roadway and urban design, where traffic conditions at the street
+scale are a result of the design of the built environment at local
+scale.
+
+Each of these three conditions has an effect on the risk of
+collision, injury, and death for pedestrians. Lower visibility for
+pedestrians increases this risk of a collision, higher traffic
+volumes increase crash frequency, and higher traffic speed
+increases the severity of the crash. The overall risk to a pedes-
+trian is the combination of the risk from the built environment
+plus the risk relative to the type of pedestrian. The literature
+related to each of the components of the conceptual framework
+is synthesized subsequently.
+
+Development Patterns: Density
+
+Vehicular and pedestrian traffic tend to increase with develop-
+ment density, as do vehicle–pedestrian collisions. In a Califor-
+nia study, Agran et al. (1996) found that the incidence of injury
+for children living in high-density residential areas was three
+times higher than that of children living in single-family resi-
+dences. Similarly, LaScala, Johnson, and Gruenewald (2001)
+found that pedestrian injuries occurred more often in areas with
+higher populations and greater cross-street densities. The den-
+sity of development affects characteristics of the built environ-
+ment such as roadway design and pedestrian infrastructure. For
+example, Clifton and Kreamer-Fults (2007) found that transit
+access, commercial land uses, and high population densities
+had direct relationships to pedestrian crashes near public
+schools. These researchers also found that characteristics of the
+built environment such as roadway design (e.g., the access to
+driveways) had a significant negative impact on pedestrian
+safety. Each of these characteristics is related to the density
+of development at a regional scale.
+
+While there is little doubt that the absolute number of pedes-
+trian crashes increases with development density, the relation-
+ship between the two appears not be linear. Collision rates
+relative to exposure may actually decline with rising densities,
+and the severity of injuries certainly declines. In a study enti-
+tled ‘‘Safety in Numbers: More Walkers and Bicyclists, Safer
+Walking and Bicycling,’’ Jacobsen (2003, 205) tapped several
+data sources to show that crashes between motorists and pedes-
+trians or cyclists were less likely when people walking or bicy-
+cling in the immediate area increased. In an environment with
+many pedestrians or bicyclists, motorists may be more aware of
+them and adjust their driving behaviors accordingly. Although
+plausible, some have criticized the ‘‘safety in numbers’’ theory
+as simplistic and have argued to focus on local-level character-
+istics of the built environment: roadway design, speed policies,
+and increased investment on pedestrian infrastructure (Bhatia
+and Wier 2011).
+
+Studies that seek to infer causal relationships between den-
+sity and pedestrian collisions must contend with multiple con-
+founding variables: more residents, more employment, more
+roads, and more of everything (Ewing and Dumbaugh 2009).
+As a result, density alone may not be a predictor of the risk
+in the built environment. Rather, the relationship between
+pedestrian risk and development density is linked through vehi-
+cle miles traveled (VMT). As VMT increases, traffic collisions
+(of which pedestrians injuries are a substantial part) increase
+(Ewing and Dumbaugh 2009). Therefore, pedestrian risk is
+related to the overall VMT generated by the density of devel-
+opment. Research from North America indicates that as devel-
+opment density increases, VMT decreases (Ewing and Cervero
+2001). Therefore, the contradiction found in the literature
+regarding density and pedestrian collisions is clarified by
+understanding the relationship between density and VMT.
+
+Development Patterns: Regional Development
+
+The rate and severity of crashes tend to be highest wherever the
+bulk of the population resides. For example, in the United
+Kingdom, young pedestrians from urban areas were involved
+in collisions five times more frequently than those in rural
+areas, and their death rate was twice as high (Petch and Henson
+2000). Similarly, Odero, Khayesi, and Heda (2003) found that
+pedestrians were more likely to be killed in urban areas. Pedes-
+trian fatality and injury rates may differ between urban and
+rural regions because pedestrian volumes and vehicle operating
+speeds differ. Consequently, if a region’s population is predo-
+minantly rural, this is where most of the collisions will occur.
+Conversely, if a country’s population is predominantly urban,
+most of the collisions will occur in urban areas.
+
+Beyond these facts, the evidence suggests that pedestrians in
+rural places have higher rates of injuries and their injuries tend
+to be more severe than pedestrians in urban areas (Mueller,
+Rivara, and Bergman 1988; Litman and Fitzroy 2005; Ewing
+and Dumbaugh 2009; Ibrahim and Sayed 2011; Tarko and
+Azam 2011). For example, in Ghana, residents are 58 percent
+more likely to die in traffic collisions on rural than on urban
+roads (Afukaar, Antwi, and Ofosu-Amaah 2003) and in Kenya,
+a majority of road traffic injuries occur on rural roads (Odero,
+Garner, and Zwi 1997). In Pakistan, twice as many road deaths
+occur in rural areas as in urban areas (Shah, Khoumbati, and
+Soomro 2007). Ma et al. (2010) found that in China, pedes-
+trians commuting in rural contexts were more likely to be
+injured in a traffic collision than those commuting within urban
+areas. This is consistent with earlier studies showing generally
+higher pedestrian injuries in rural areas (Al-Madani and
+Al-Janahi 2006; Xie et al. 2002).
+
+There are several explanations for why rural areas appear to
+be more dangerous for pedestrians. One is that the relationship
+between VMT and traffic fatality rates is roughly linear. VMT
+per capita are consistently higher in rural areas, with corre-
+spondingly higher fatality rates per capita (Litman and Fitzroy
+2005; Ewing and Dumbaugh 2009). Rural roads also produce
+characteristics of the built environment that promote higher
+
+Stoker et al.
+
+383
+
+traffic speeds than urban roads. Measures to reduce traffic
+speeds in rural China resulted in improved pedestrian safety
+(Changcheng et al. 2010). Additionally, pedestrian crashes
+in rural areas are generally located farther from emergency
+medical facilities, and emergency services take longer to
+arrive at the scene of a crash to provide lifesaving medical
+care (Mueller et al. 1988). Rural roads are also less likely to
+include complete characteristics of the built environment such
+as pedestrian infrastructure. Wanvik (2009), for example,
+found that while pedestrian risk for injury on rural Dutch
+roads increased 140 percent during nighttime hours on roads
+with lighting, whereas the risk increased by 360 percent on
+rural roads without lighting.
+
+Development Patterns: Urban Sprawl
+
+For the same reasons, pedestrian crashes are more likely to be
+fatal in rural areas, pedestrian–vehicle crashes are more likely
+to be fatal in sprawling urban areas. Urban sprawl, prevalent
+internationally and particularly common in North America, is
+characterized by four dominant qualities: a widely dispersed
+population and low-density development; the rigid separation
+of residential, commercial, industrial, and office uses; poorly
+defined activity centers; and a road network typified by large
+blocks and poor connectivity (Ewing, Pendall, and Chen
+2002). In an extensive study, Ewing, Schweiber, and Zegeer
+(2003) found associations between the degree of sprawl and
+traffic fatalities, with each 1 percent decrease in sprawl result-
+ing in 1.49 percent decrease in traffic-related fatalities overall,
+and between 1.47 and 3.56 percent decrease specifically in
+pedestrian fatality rates.
+
+Relatively high numbers of miles of arterial roadways and
+the presence of strip malls and big-box stores (indicative of
+urban sprawl) are also determinants of traffic injury rates
+(Dumbaugh and Li 2011). A substantial study by Marshall and
+Garrick (2011) analyzed 230,000 crashes occurring over eleven
+years in California, finding that denser street networks with
+higher intersection counts—the converse of urban sprawl—was
+associated with fewer crashes across all severity levels. Like-
+wise, vehicle–pedestrian collisions occurring at intersections
+in neighborhoods with mixed land uses and nearby schools—
+also the converse of urban sprawl—resulted in lower rates of
+injury and death compared to collisions in other development
+types (Zahabi et al. 2011). Again, the link between pedestrian
+safety and development patterns is VMT.
+
+Characteristics: Pedestrian Infrastructure
+
+Pedestrian infrastructure can reduce pedestrian exposure to
+vehicular traffic and reduce vehicle speeds (Lonero, Clinton,
+Sleet 2006; Zeeger et al. 2004; Retting, Ferguson, and McCartt
+2003; Peden et al. 2004; Elvik et al. 2009; Sleet, Naumann, and
+Rudd 2011; Zegeer and Bushell 2012; World Health Organiza-
+tion 2013b). These street treatments are briefly summarized
+subsequently and organized by reducing pedestrian exposure
+and reducing vehicle speeds.
+
+Street Treatment: Reducing Pedestrian Exposure to
+Vehicular Traffic
+
+The specific engineering measures that reduce pedestrian expo-
+sure to vehicular traffic by either creating separation between
+pedestrians and vehicles or reducing traffic volume are side-
+walks and footpaths, marked crossings, overpasses and under-
+passes, and mass transport routes.
+
+Street Treatment: Reducing Vehicle Speeds
+
+As pointed out in several studies and reports (e.g., World
+Health Organization 2013b), speed is a key risk factor for
+pedestrian traffic injury. Hence, speed management remains
+an effective measure to reduce pedestrian traffic risk. The engi-
+neering approach to speed management consists of a number of
+specific traffic-calming measures: physical treatments to roads
+as well as perceptual treatments and speed limit reductions
+aimed at reducing vehicle speeds and sometimes traffic volume
+(Mead et al. 2014). Traffic-calming measures are generally of
+two types: (a) those that require motorists to change their direc-
+tion of travel by moving either to the left or right and (b) those
+that require motorists to change elevation by either going up or
+down (Vanderschuren and Jobanputra 2009). Traffic-calming
+measures can vary from a few minor changes, through modifi-
+cations of local streets,
+to area-wide changes and major
+rebuilds (Vanderschuren and Jobanputra 2009). Their effects
+include moderate speed reductions to street design changes,
+with various degrees of success in reducing pedestrian crashes
+and traffic volume (Table 2). A number of studies show a
+reduction in pedestrian–vehicle conflicts and crashes associ-
+ated with refuge islands, marked crossings with raised medians,
+road narrowing, staggered lanes, road humps, and junction
+redesign (World Health Organization 2013b).
+
+Characteristics: Roadway Design
+
+In general, streets designed to be narrower and for slower speeds
+experience the lowest rates of vehicle–pedestrian crashes, while
+wide street lanes and higher operating speeds experience the
+highest rates (Garder 2004). For these reasons, European road-
+way engineers design for lower vehicle operating speeds in
+developed areas (Federal Highway Administration 2001; Lamm,
+Psarianos, and Mailender 1999; Organisation for Economic
+Co-operation and Development 1998; UK Department for
+Transport 2007). In the Netherlands, a ‘‘sustainable safety’’
+policy sets roadway speed limits based on road function with
+this policy potentially resulting in one-third fewer injuries per
+million vehicle kilometers (Institute for Road Safety Research
+1993).
+
+Conversely, roadway expansion and widenings occur at the
+expense of safety, even after controlling for traffic volumes
+(Dumbaugh 2005; Harwood 1986; Milton and Mannering
+1998; Noland and Oh 2004; Sawalha and Sayed 2001;
+Vitaliano and Held 1991; Hummer and Lewis 2000). Wide
+lanes adversely affect traffic safety, particularly in urban areas.
+
+384
+
+Journal of Planning Literature 30(4)
+
+Table 2. Traffic-calming Measures, Their Application, and Impact.
+
+Type
+
+Speed Reduction
+Can Be Applied to
+
+Arterial
+Roads
+
+Local
+Roads
+
+No
+Yes
+Speed hump
+With caution Yes
+Speed table
+Yes
+Yes
+Raised crosswalk
+With caution Yes
+Raised intersection
+Yes
+Yes
+Textured pavements
+With caution Yes
+Speed cushion
+Yes
+Yes
+Rumble strips
+Yes
+No
+Traffic (mini) circle
+Yes
+Yes
+Roundabout
+Yes
+No
+Chicanes
+Yes
+Yes
+Realigned intersection
+Yes
+Yes
+Tight radii
+Yes
+Yes
+Centre island narrowing
+Yes
+Chokers
+Yes
+Yes
+Road diets (i.e., lane reduction) Yes
+Yes
+Yes
+Speed limits
+Yes
+Yes
+Speed alerts, enforcement
+Perceptual design
+Yes
+Yes
+Yes
+Yes
+Warning signs
+Yes
+Yes
+Half closure
+Yes
+Yes
+Diagonal diverters
+Yes
+Yes
+Lateral shift
+Median barriers
+Yes
+No
+No
+Yes
+Gateway treatments
+No
+Yes
+Traffic signal coordination
+Vehicle-activated signs
+Yes
+No
+
+Source: Vanderschuren and Jobanputra (2009).
+
+Impact
+on Traffic
+Volume
+
+Possible
+Possible
+Possible
+Possible
+Possible
+Possible
+No
+Possible
+Not likely
+Yes
+Possible
+Possible
+Possible
+Possible
+Yes
+No
+No
+Possible
+No
+Yes
+Yes
+No
+Yes
+No
+No
+No
+
+Noland and Oh (2004) found that wider lanes were associated
+with statistically significant increases in total and fatal crashes
+in the state of Illinois. Lee and Mannering (1999) established
+that while wide lanes reduced the probability of run-off-
+roadway crashes in rural settings, they were associated with
+increases in these types of crashes in urban areas. In reexamin-
+ing the historical literature on lane widths and traffic safety,
+Hauer (1999) found that research from 1940 forward consis-
+tently showed crashes increasing as lanes exceed eleven feet
+in width. These results are confirmed by Swift, Painter, and
+Goldstein (2006) who found that after examining thirteen phy-
+sically built environment characteristics for approximately
+20,000 collisions report street width correlated most highly
+with collision rates, and the safest streets are found to be nar-
+row (twenty-four foot wide) and slow.
+
+Traffic speed, discussed subsequently as impacting injury
+severity in collisions, can be reduced by narrowing lanes and
+shortening street sections (Harwood 1990; Farouki and Nixon
+1976; Heimbach, Cribbins, and Chang 1983; Clark 1985;
+Gattis and Watts 1999; Gattis 2000; Fitzpatrick et al. 2001).
+Drivers on narrow streets generally behave less aggressively,
+run fewer traffic signals, and drive slower (Untermann 1990).
+This may be because drivers feel less safe and therefore drive
+more cautiously on narrow streets (Ewing and Dumbaugh
+
+2009). Studies of ‘‘road diet’’ projects, which reduce the num-
+ber of traffic lanes on a road, find that traffic crashes decrease
+as lanes are eliminated (Huang, Stewart, and Zegeer 2002;
+Knaap and Giese 2001). One possible explanation is that on
+two-lane roads, prudent drivers set the pace and others must
+follow, whereas on multilane roads where passing is possible,
+high-speed drivers set the prevailing speed (Burden and Lager-
+wey 1999).
+
+One of the strategies developed in the Netherlands for traffic
+calming is known as woonerf, a residential area (sometimes
+referred to as a ‘‘living yard’’) that promotes sharing of the
+street by pedestrians, cyclists, and motorists but giving priority
+to pedestrians and cyclists. Vehicles are allowed on the streets
+under the strict conditions of low speed, nonobtrusive parking,
+and limited traffic (Woonerfgoed Network 2014). The woonerf
+basically seeks to strike a balance between the life of a commu-
+nity and the movement of vehicles. The woonerf has spread
+from the Netherlands where it started in the 1970s to other parts
+of the world. The concern about livable streets and rebalancing
+the needs of different road users is spreading around the world
+(Khayesi, Monheim, and Nebe 2010). There are several pro-
+gram initiatives and policy efforts toward this end such as home
+zone, complete streets, residential zone, shared zone, shared
+space, and walkable communities.
+
+Conditions: Traffic Volumes
+
+Research worldwide consistently finds that the higher the traf-
+fic volume, the greater the frequency of pedestrian injuries
+(Quaye et al. 1993; Roberts et al. 1995; Agran et al. 1996;
+McMahon et al. 2002; Hijar, Vasquez-Vela, and Arreola-Risa
+2003; Harwood et al. 2008; Chen, Meng, and Wang 2009;
+Ma et al. 2010). In one study, Roberts et al. (1995) found that
+the risk of injury for children was thirteen times higher in
+neighborhoods with the highest traffic volumes compared to
+those with the lowest. In another, Quaye et al. (1993) found that
+the probability of a pedestrian injury with a left-turning vehicle
+varied as a function of traffic volume. And Harwood et al.
+(2008) demonstrated that higher traffic volumes at signalized
+intersections were associated with a higher likelihood of pedes-
+trian crashes. Data from crash records in China between 2004
+and 2007 result in the finding that arterial roads with heavier
+traffic volumes tended to have more severe crashes (Ma et al.
+2010). Finally, specific peak periods of pedestrian and vehicle
+traffic volume, such as holidays, are associated with higher lev-
+els pedestrian injuries and fatalities (Road Traffic Management
+Corporation 2009).
+
+Conditions: Traffic Speeds
+
+The risk factor that increases the severity of pedestrian injuries
+and fatalities is traffic speed (Mohan and Tiwaria 1998; Hijar,
+Vasquez-Vela, and Arreola-Risa 2003; European Transport
+Safety Council [ETSC] 1999). Vehicle speeds are repeatedly
+associated with increased injury severity and death in motor
+vehicle collisions involving pedestrians (Anderson et al. 1997;
+
+Stoker et al.
+
+385
+
+Avineri, Shinar, and Susilo 2012; ETSC 1999; Garder 2004;
+Grundy et al. 2009; Hijar, Vasquez-Vela, and Arreola-Risa
+2003; Kim et al. 2010; Mohan and Tiwaria 1998; UK Depart-
+ment of Transport 1997; Zegeer et al. 2002; Zhao et al. 2010;
+Zegeer and Bushell 2012). Simple physics tells us that higher
+vehicle-operating speeds give drivers less time to react to unfore-
+seen hazards, cause drivers to travel farther before stopping
+when hazards are present, and result in increased force of impact
+when crashes occur.
+
+Evidence indicates that when struck by a vehicle traveling
+forty miles per hour (mph; 64.4 km/h), a pedestrian has an
+85 percent chance of death, and the fatality rate drops to 45 per-
+cent at thirty mph (48.2 km/h) and to 5 percent at twenty mph
+(32.2 km/h; UK Department of Transport 1997; Zegeer et al.
+2002; ETSC 2005). Another study found higher rates of fatal-
+ities at even lower speeds (Tingvall and Haworth 1999). An
+analysis of vehicle impact speeds in pedestrian injuries in
+China found in cases where the vehicle was traveling less than
+twenty mph,
+there were no reported fatalities; collisions
+where the vehicle was traveling between twenty and twenty-
+five mph accounted for fewer than 5 percent of all fatalities
+(Zhao et al. 2010). A key finding in pedestrian safety research
+is that the single most consequential intervention in reducing
+pedestrian injury and fatality rates appears to be roadway
+treatments (Afukaar, Antwi, and Ofosu-Amaah 2003; Grundy
+et al. 2009; Mutabazi 2010; Methorst et al. 2010; Mohan and
+Tiwaria 1998; Hijar, Trostle, and Bronfman 2003; ETSC
+1999). Vehicular speeds can be reduced by narrowing road-
+ways, using traffic-calming measures, and installing warning
+signs and frequent stop signs (Peden et al. 2004). These inter-
+ventions are most certainly within the realm of planners
+influence.
+
+Conditions: Visibility
+
+Poor visibility is one of the greatest risk factors for pedestrians
+(Kwan and Mapstone 2006; Ulfarsson, Kim, and Booth 2010;
+Ackaah and Adonteng 2011). In the United States, 67 percent
+of all fatal vehicle–pedestrian collisions occur at night or under
+low-light conditions (Campbell et al. 2004; National Highway
+Traffic Safety Administration 2007; Zegeer et al. 2010). A sys-
+tematic analysis of the US Fatality Analysis Reporting System
+(FARS) data indicates that pedestrian fatalities increase as illu-
+mination decreases, holding other factors constant (Owens and
+Sivak 1996; Sullivan and Flannagan 2002; Griswold et al.
+2011). Further analysis of FARS data reveals that twilight and
+the first hour of darkness typically result in the highest fre-
+quency of fatal collisions for pedestrian (Griswold et al.
+2011). Because pedestrian volumes are often still high during
+twilight hours, pedestrian exposure (walking/crossing activity)
+during these time periods is the most deadly (Griswold et al.
+2011).
+
+Roadway lighting can improve the visibility of pedestrians,
+and proper design and timely maintenance of street lighting
+can, in turn, help improve the safety of the roadway system.
+Zhou and Hsu (2009) developed and installed a mobile lighting
+
+measurement system in a test vehicle to collect luminance data
+along a corridor of US 19 in Pinellas County, Florida. Follow-
+ing the assessment, pedestrian crash data were collected for a
+three-year period. The results of the study demonstrated that
+nighttime pedestrian crashes were of higher frequency on
+poorly lit segments of roadway.
+
+The risks of nighttime travel are demonstrably mitigated by
+the use of handheld lamps, flashing lights, and red and yellow
+retroreflective materials by pedestrians (Peden et al. 2004).
+Retroreflective materials are particularly effective when
+arranged in a ‘‘biomotion’’ configuration, which highlights the
+movement of the pedestrian (Peden et al. 2004). For nighttime
+visibility, handheld lamps, flashing lights, and red and yellow
+retroreflective materials have been found to increase pedestrian
+recognition (Peden et al. 2004).
+
+Considerations for Future Research
+
+As research on pedestrian safety and the built environment con-
+tinues, we recommend the following for future research based
+on our current review of the literature. First, we suggest that
+researchers employ quasi-experimental research designs when-
+ever possible. Quasi-experimental research designs allow for
+improved understanding of causality between predictor vari-
+ables and pedestrian injuries. Cross-sectional or longitudinal
+designs were the most common research designs we observed
+(i.e., Jacobsen 2003; Tarko and Azam 2011; Afukaar, Antwi,
+and Ofosu-Amaah 2003). The insights drawn from studies
+using cross-sectional and longitudinal designs remain useful
+but can only offer correlational evidence between risk factors
+and pedestrian safety. Good examples of quasi-experimental
+research on pedestrian safety include LaScala, Johnson, and
+Gruenewald (2001) and Ewing, Chen, and Chen (2013). These
+studies move researchers and practitioners closer to under-
+standing the causality between risk factors, safety treatments,
+and pedestrian safety.
+
+We also suggest that qualitative methodologies have much
+to offer the understanding of pedestrian safety and the built
+environment. Like quasi-experimental research, qualitative
+research is well suited to answer research questions that ask
+why? The majority of studies reviewed are purely quantitative
+(i.e., Clifton and Kreamer-Fults 2007; Petch and Henson 2000;
+Changcheng et al. 2010). We observed that some of the best
+studies we reviewed used mixed methods, employing both
+quantitative and qualitative research (Hijar, Vasquez-Vela, and
+Arreola-Risa 2003; LaScala, Johnson, and Gruenewald 2001).
+These studies moved beyond descriptions and summaries to
+answer why did a pedestrian injury occur? Employing mixed
+methodologies would further researcher and practitioner under-
+standing of pedestrian safety.
+
+Conclusion
+
+This review has presented an overview of the evidence on risk
+factors for pedestrian road traffic injury in the built environ-
+ment by first examining research on pedestrians by type and
+
+386
+
+Journal of Planning Literature 30(4)
+
+risk/safety factors, followed by research focused on different
+scales and aspects of the built environment. Three major factors
+that stand out are visibility, pedestrian–traffic interaction, and
+traffic speed. We conclude this article by reflecting on the
+question: ‘‘What do these findings on risk factors for pedes-
+trians in the built environment suggest planners need to do?’’
+We are not saying that planners have not made an effort to
+address pedestrian safety in their work, but only pointing out
+that these findings remind this group of professionals about
+the importance of designing the built environment to reduce
+risks to pedestrians. Specifically, we see the following three
+implications:
+
+ Risks factors in the built environment interact with each
+other to increase the probability of pedestrian fatalities
+and injuries occurring. Hence, the need for planners is
+to not only understand that these factors interact but also
+to consider them in risk assessments of the overall built
+environment during planning, implementation, and eva-
+luation of programs.
+ Address these risks during the design and implementation
+phases. Many pedestrian-friendly environmental features
+represent no added cost to implement during initial build-
+ing, meriting consideration, in all settings, whether high-
+or low-income countries. Because changes to the built
+environment are costly and difficult, thoughtful planning
+and design with pedestrian safety in mind becomes a
+cost-effective approach to reducing risks to pedes-
+trians. Planners can work toward reducing pedestrian
+risk by promoting strategies that encourage mixed land
+uses and accessibility. Specific measures to improve
+pedestrian safety such as reducing vehicle speed,
+reducing pedestrian exposure to vehicular traffic, and
+improving visibility between motor vehicles and
+pedestrians are available in literature (see, e.g., Zeeger
+et al. 2004; Retting, Ferguson, and McCartt 2003; Elvik
+et al. 2009).
+ Advocate for pedestrian safety. Planners can leverage
+their unique positions by urging public officials to
+develop and support policies that recognize the needs
+of pedestrians and by working with other local planners,
+designers, and developers to create pedestrian environ-
+ments that maximize pedestrian safety and well-being.
+
+We have presented an overview of evidence from around the
+world, and it is up to the planners to utilize the evidence in their
+local and institutional settings.
+
+Acknowledgments
+
+This article is based on a literature review report that was prepared as
+a background resource for developing a pedestrian safety manual by
+the World Health Organization in 2013. The World Health Organiza-
+tion gratefully acknowledges the financial support received from
+Bloomberg Philanthropies and the US National Highway Traffic
+Safety Administration, which made possible the production of the
+pedestrian safety manual. We are also grateful for the contributions
+of M. Connors and J. Gulden.
+
+Declaration of Conflicting Interests
+
+The author(s) declared no potential conflicts of interest with respect to
+the research, authorship, and/or publication of this article.
+
+Funding
+
+The author(s) received no financial support for the research, author-
+ship, and/or publication of this article.
+
+References
+
+Ackaah, W., and D. O. Adonteng. 2011. ‘‘Analysis of Fatal Road Traf-
+fic Crashes in Ghana.’’ International Journal of Injury Control and
+Safety Promotion 18 (1): 21–27.
+
+Afukaar, F. K., P. Antwi, and S. Ofosu-Amaah. 2003. ‘‘Pattern of
+Road Traffic Injuries in Ghana: Implications for Control.’’ Injury
+Control and Safety Promotion 10 (1–2): 69–76.
+
+Agran, P. F., D. G. Winn, C. L. Anderson, and C. P. Del Valle. 1998.
+‘‘Family, Social, and Cultural Factors in Pedestrian Injuries among
+Hispanic Children.’’ Injury Prevention 4:188–93.
+
+Agran, P. F., D. G. Winn, C. L. Anderson, C. Tran, and C. P. Del
+Valle. 1996. ‘‘The Role of the Physical and Traffic Environment
+in Child Pedestrian Injuries.’’ Pediatrics 98 (6): 1096–103.
+
+Al-Madani, H., and A. Al-Janahi. 2006. ‘‘Personal Exposure Risk Fac-
+tors in Pedestrian Accidents in Bahrain.’’ Safety Science 44 (4):
+335–47.
+
+Anderson, R. W. G., A. J. Mclean, M. J. B. Farmer, H. B. Lee, and C.
+G. Brooks. 1997. ‘‘Vehicle Travel Speeds and the Incidence of
+Fatal Pedestrian Crashes.’’ Accident Analysis & Prevention 29
+(5): 667–74.
+
+Assailly, J. P. 1997. ‘‘Characterization and Prevention of Child Pedes-
+trian Accidents: An Overview.’’ Journal of Applied Developmental
+Psychology 18 (2): 257–62.
+
+Avineri, E., D. Shinar, and Y. O. Susilo. 2012. ‘‘Pedestrians’ Beha-
+viour in Cross Walks: The Effects of Fear of Falling and Age.’’
+Accident Analysis & Prevention 44 (1): 30–34.
+
+Azetsop, J. 2010. ‘‘Social Justice Approach to Road Safety in Kenya:
+Addressing the Uneven Distribution of Road Traffic Injuries and
+Deaths across Population Groups.’’ Public Health Ethics 3 (2):
+115–27.
+
+Bartels, D., K. Bhalla, S. Shahraz, J. Abraham, R. Lozano, and C. J. L.
+Murray. 2010. ‘‘Incidence of Road Injuries in Mexico: Country
+Report.’’ International Journal of Injury Control and Safety Pro-
+motion 17 (3): 169–76.
+
+Barton, B. K., and D. C. Schwebel. 2007. ‘‘The Influences of Demo-
+graphics and Individual Differences on Children’s Selection of
+Risky Pedestrian Routes.’’ Journal of Pediatric Psychology 32
+(3): 343–53.
+
+Berger, L. R., and D. Mohan. 1996. Injury Control: A Global View.
+
+Oxford, UK: Oxford University Press.
+
+Bhalla, K., M. Naghavi, S. Shahraz, D. Bartel, and C. J. L. Murray.
+2009. ‘‘Building National Estimates of the Burden of Road Traffic
+Injuries in Developing Countries from All Available Data Sources:
+Iran.’’ Injury Prevention 15 (3): 150–56.
+
+Bhatia, R., and M. Wier. 2011. ‘‘Safety in Numbers Re-examined: Can
+We Make Valid or Practical Inferences from Available Evidence?’’
+Accident Analysis & Prevention 43 (1): 235–40.
+
+Stoker et al.
+
+387
+
+Bishair, D., A. Quresh, P. James, and A. Ghaffar. 2006. ‘‘National
+Road Casualties and Economic Development.’’ Health Economics
+15 (1): 65–81.
+
+Boarnet, M., C. Anderson, K. Day, T. McMillan, and M. Alfonzo. 2005.
+‘‘Evaluation of the California Safe Routes to School Legislation:
+Urban from Changes and Children’s Active Transportation to
+School.’’ American Journal of Preventative Medicine 28 (2): 134–40.
+Burden, D., and P. Lagerwey. 1999. Road Diets: Fixing the Big Roads.
+Washington, DC: Walkable Communities. Accessed November 7,
+2012. http://www.walkable.org/articles.html.
+
+Davies, D. G, Turner-Fairbank Highway Research Center, US Federal
+Highway Administration, University of North Carolina Highway
+Safety Research Center, and David Davies Associates. 1999.
+Research, Development, and Implementation of Pedestrian Safety
+Facilities in the United Kingdom. Mclean, VA: US Department
+of Transportation, US Federal Highway Administration, Turner-
+Fairbank Highway Research Center.
+
+Delmelle, E. C., J. C. Thill, and H. H. Ha. 2012. ‘‘Spatial Epidemio-
+logic Analysis of Relative Collision Risk Factors among Urban
+Bicyclists and Pedestrians.’’ Transportation 39 (2): 433–48.
+
+Campbell, B. J., C. V. Zegeer, H. H. Huang, and M. J. Cynecki. 2004. A
+Review of Pedestrian Safety in the United States and Abroad. Chapel
+Hill: University of North Carolina. Accessed December 2013. ntl.
+bts.gov/lib/24000/24700/24702/Ped_Synthesis_Report.pdf.
+
+Demetriades, D., J. Murray, M. Martin, G. Velmahos, A. Salim, K.
+Alo, and P. Rhee. 2004. ‘‘Pedestrians Injured by Automobiles:
+Relationship of Age to Injury Type and Severity.’’ Journal of the
+American Surgeons 199 (3): 382–87.
+
+Chakravarthy, B., C. L. Anderson, J. Ludlow, S. Lotfipour, and F. E.
+Vaca. 2010. ‘‘The Relationship of Pedestrian Injuries to Socioeco-
+nomic Characteristics in a Large Southern California County.’’
+Traffic Injury Prevention 11 (5): 508–13.
+
+Changcheng, L., G. Zhang, J. Zhang, and H. Zheng. 2010. ‘‘First Engi-
+neering Practice of Traffic Calming in Zhaitang Town in China.’’
+Paper presented at the 2010 International Conference on Optoelec-
+tronics and Image Processing (ICOIP), Haikou, China. Published
+in ICOIP 1: 565–68.
+
+Chen, Y., H. Meng, and Z. Wang. 2009. ‘‘Safety Improvement Prac-
+tice for Vulnerable Road Users in Beijing Intersections.’’ Paper
+presented at
+the 88th Annual Meeting of the Transportation
+Research Board, Washington, DC. Published in The TRB 88th
+Annual Meeting Compendium of Papers DVD.
+
+Chow, D. H. K., M. L. Y. Kwok, A. C. K. Au-Yang, A. D. Holmes, J.
+C. Y. Cheng, F. Y. D. Yao, and M. S. Wong. 2005. ‘‘The Effect of
+Backpack Load on the Gait of Normal Adolescent Girls.’’ Ergo-
+nomics 48 (6): 642–56.
+
+Clark, J. 1985. High Speeds and Volumes on Residential Streets: An
+Analysis of Physical Street Characteristics as Causes in Sacra-
+mento, California. Compendium of Technical Papers. Washington,
+DC: Institute of Transportation Engineers.
+
+Dumbaugh, E. 2005. ‘‘Safe Streets, Livable Streets: A Positive
+Approach to Urban Roadside Design.’’ Unpublished dissertation,
+Georgia Institute of Technology, Atlanta.
+
+Dumbaugh, E., and W. Li. 2011. ‘‘Designing for the Safety of Pedes-
+trians, Cyclists, and Motorists in the Built Environment.’’ Journal
+of the American Planning Association 77 (1): 69–88.
+
+Durak, D., R. Fedakar, N. Tu¨rkmen, S. Akgo¨z, and E. Badurog

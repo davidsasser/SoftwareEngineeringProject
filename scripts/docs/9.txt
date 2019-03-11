@@ -1,0 +1,66 @@
+Traffic Injury Prevention
+
+ISSN: 1538-9588 (Print) 1538-957X (Online) Journal homepage: http://www.tandfonline.com/loi/gcpi20
+
+Investigating Factors Influencing Pedestrian Injury
+Severity at Intersections
+
+Zhuanglin Ma, Xi Lu, Steven I-Jy Chien & Dawei Hu
+
+To cite this article: Zhuanglin Ma, Xi Lu, Steven I-Jy Chien & Dawei Hu (2017): Investigating
+Factors Influencing Pedestrian Injury Severity at Intersections, Traffic Injury Prevention, DOI:
+10.1080/15389588.2017.1354371
+To link to this article:  http://dx.doi.org/10.1080/15389588.2017.1354371
+
+View supplementary material 
+
+Accepted author version posted online: 24
+Jul 2017.
+
+Submit your article to this journal 
+
+View related articles 
+
+View Crossmark data
+
+Full Terms & Conditions of access and use can be found at
+
+http://www.tandfonline.com/action/journalInformation?journalCode=gcpi20
+
+Download by: [Tufts University]
+
+Date: 25 July 2017, At: 04:51
+
+ACCEPTED MANUSCRIPT                           
+
+ 
+ 
+
+Investigating Factors Influencing Pedestrian Injury Severity at Intersections 
+
+Zhuanglin Maa,*, Xi Lub, Steven I-Jy Chien a,c, Dawei Hu a 
+
+aSchool of Automobile, Chang’an University, Xi’an, Shaanxi, China 
+
+bChina Academy of Transportation Science, Beijing 100029, China 
+
+cJohn A. Reif, Jr. Department of Civil and Environmental Engineering, New Jersey Institute of 
+
+Technology, Newark 07102, NJ, USA 
+
+Address correspondence to Zhuanglin Ma, School of Automobile, Chang’an University, Middle-section 
+
+of Nan’er Huan Road Xi’an, ShaanXi Province 710064, China. E-mail: zhuanglinma@chd.edu.cn 
+
+ABSTRACT 
+
+Objective: Vehicle crashes which involved pedestrian at intersections have been reported occasionally. 
+
+The injury severity of pedestrians in these crashes seems significantly related to driver and pedestrian 
+
+attributes, vehicle characteristics, and the geometry of intersections. Identifying factors associated with 
+
+pedestrian injury severity (PIS) is critical for reducing crashes and improving safety. For developing the 
+
+proposed probit models, drivers who involved crashes are classified into three groups: young drivers (16 
+

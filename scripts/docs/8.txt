@@ -1,0 +1,580 @@
+J Urban Health (2017) 94:855–868
+DOI 10.1007/s11524-017-0200-z
+
+Neighborhood Influences on Vehicle-Pedestrian Crash
+Severity
+
+Alireza Toran Pour
+Richard Tay & Abbas Rajabifard
+
+& Sara Moridpour &
+
+Published online: 6 September 2017
+# The New York Academy of Medicine 2017
+
+Abstract Socioeconomic factors are known to be con-
+tributing factors for vehicle-pedestrian crashes. Al-
+though several studies have examined the socioeconom-
+ic factors related to the location of the crashes, limited
+studies have considered the socioeconomic factors of
+the neighborhood where the road users live in vehicle-
+pedestrian crash modelling. This research aims to iden-
+tify the socioeconomic factors related to both the neigh-
+borhoods where the road users live and where crashes
+occur that have an influence on vehicle-pedestrian crash
+severity. Data on vehicle-pedestrian crashes that oc-
+curred at mid-blocks in Melbourne, Australia, was ana-
+lyzed. Neighborhood factors associated with road users’
+residents and location of crash were investigated using
+boosted regression tree (BRT). Furthermore, partial de-
+pendence plots were applied to illustrate the interactions
+between these factors. We found that socioeconomic
+factors accounted for 60% of the 20 top contributing
+factors to vehicle-pedestrian crashes. This research re-
+veals that socioeconomic factors of the neighborhoods
+where the road users live and where the crashes occur
+are important in determining the severity of the crashes,
+
+A. Toran Pour (*) : S. Moridpour
+School of Engineering, RMIT University, Melbourne, Australia
+e-mail: alireza.toranpour@rmit.edu.au
+
+R. Tay
+School of Business IT and Logistics, RMIT University,
+Melbourne, Australia
+
+A. Rajabifard
+Department of Infrastructure Engineering, University of
+Melbourne, Melbourne, Australia
+
+with the former having a greater influence. Hence, road
+safety countermeasures, especially those focussing on
+the road users, should be targeted at these high-risk
+neighborhoods.
+
+Keywords Vehicle-pedestrian crashes . Boosted
+regression tree . Neighborhood socioeconomic
+influences . Neighborhoods where road users live .
+Neighborhood where crash occur
+
+Introduction
+
+Pedestrians are known as vulnerable road users due to
+their lack of protection and are thus more likely to be
+killed or seriously harmed in vehicle-pedestrian crashes.
+For example, pedestrians are 23 times more likely to be
+killed in vehicle-pedestrian crashes than car occupants
+in the USA [1]. According to the World Health Organi-
+sation [2], 22% of the 1.25 million people killed each
+year in road traffic crashes worldwide are pedestrians. In
+Calgary, Canada, only 7.4% of the vehicle-vehicle col-
+lisions on local roads resulted in injuries [3], but 84.8%
+of the pedestrian-vehicle collisions on local roads result-
+ed in deaths or serious injuries [4]. In Great Britain, 23%
+of all fatalities in road crashes in 2013 were pedestrians
+[5] and 39% of the traffic fatalities in Korea were
+pedestrians [6]. Likewise, 4884 pedestrians were killed
+in the USA and an estimated 65,000 were injured in
+traffic crashes in 2014 [7].
+
+Therefore, vehicle-pedestrian crashes are a major
+concern in many countries, and many studies have been
+
+856
+
+A. T. Pour et al.
+
+conducted to identify the factors contributing to these
+crashes. Personal characteristics of pedestrian, such as
+age and gender, have been found to be significant var-
+iables in several studies [6, 8–10], while vehicle type
+and road geometry factors have been identified as im-
+portant variables in other studies [11–13]. Additionally,
+the influences of built environment, environment con-
+dition, and speed limit have also been investigated in
+many studies [14–17].
+
+Relatively few studies, however, had examined the
+contribution of socioeconomic factors, such as culture,
+income and level of education, on vehicle-pedestrian
+crashes. Campos-Outcalt et al. [18] examined the influ-
+ence of race and ethnicity on pedestrian crashes in
+Arizona and revealed that the rates and circumstances
+of pedestrian deaths were affected by these factors. In
+addition, several studies had examined the influences of
+income and education level on vehicle-pedestrian
+crashes [19–22].
+
+In general, two main approaches were used to exam-
+ine the influence of socioeconomic variables on vehicle-
+pedestrian crashes. Some studies used the socioeconom-
+ic characteristics of the neighborhood where pedestrians
+lived [19, 21, 22] while other studies used the socioeco-
+nomic factors related to the neighborhoods where the
+crash occurred [23, 24]. However, limited or no study
+has investigated the socioeconomic factors related to
+both types of neighborhoods or examined their relative
+importance.
+
+Studies show that social and economic factors related
+to location of crashes could influence on vehicle-
+pedestrian severity level (Table 1). For instance, Wier
+et al. [25] and Graham et al. [26] showed that the
+proportion of low-income households and the propor-
+tion of people without access to a motor vehicle were
+contributing factors for vehicle-pedestrian crash injury
+severity. Therefore, understanding the social and eco-
+nomic factors related to location of crashes may assist
+road safety professionals to target suburbs to apply site-
+specific pedestrian safety programs and improving
+vehicle-pedestrian safety issue in these suburbs.
+
+Meanwhile, other studies showed that socio-
+economic factors could influence road users’ behavior
+[27, 28]. For instance, studies showed that ethnicity and
+family background were important factors associated
+with traffic crashes [29–31]. Therefore, using drivers’
+and pedestrians’ residency neighborhood social and
+economic factors can assist in identifying target suburbs
+to apply different road user behavior change programs
+
+and improve traffic safety knowledge of road users in
+these suburbs.
+
+This research aims to examine the influence of so-
+cioeconomic factors of the neighborhoods where the
+crashes occur, the neighborhoods where drivers live
+and the neighborhoods where pedestrians live, as well
+as examining their relative importance. It will examine
+the neighborhoods where the road users live (residency
+neighborhood) and where the crashes occur (crash
+neighborhood) on vehicle-pedestrian crash severity,
+while controlling for the influences of roadway, road
+user, vehicle and environmental factors. It will contrib-
+ute to advancing knowledge in the field as very limited
+research has been conducted to examine the influence of
+socioeconomic factors of both the neighborhoods where
+the crashes occur and where the pedestrians live.
+
+Data
+
+Data on vehicle-pedestrian crashes on public roads that
+occurred at mid-blocks in the Melbourne metropolitan
+area from 2004 to 2013 were extracted from Victoria
+Road Crash Information database. Melbourne metropol-
+itan area refers to Capital City Statistical Division (Cap-
+ital City SDs) in Australian Standard Geographical Clas-
+sification (ASGC) [32]. According to ASGC definition,
+Capital City SDs are predominantly urban in character
+and represent the state/territory capital cities in the wider
+sense. Figure 1 shows the Melbourne metropolitan area.
+It should be noted that in Victoria, Australia, only crashes
+resulting in deaths or injuries were required to be report-
+ed to the police. In this database, the severity of a crash
+was determined by the person who suffered the most
+severe injury and was recorded using three categories. A
+fatal crash referred to a crash in which at least one person
+died within 30 days of a collision. According to
+VicRoads classification, a serious injury crash referred
+to a collision that resulted in at least one person being
+sent to hospital. Other injury crash referred to a crash that
+did not have any fatality or serious injury.
+
+Data on the socioeconomic factors were extracted
+from Australian Bureau of Statistics (ABS). Since infor-
+mation on the postcodes of the crash location and the
+addresses of the persons involved in the crash (residency
+location) were available in the crash database, socioeco-
+nomic data at the postcode level were extracted from the
+ABS. Geographic Information Systems (GIS) was then
+used to merge the crash information and the
+
+Neighborhood Influences on Vehicle-Pedestrian Crash Severity
+
+857
+
+Table 1 Distribution of categorical variables
+
+Factors
+
+Season
+
+Time of
+Crash
+
+Day of
+
+Crash
+
+Pedestrian
+
+Age
+
+Pedestrian
+Gender
+
+Driver Age
+
+Driver
+
+Gender
+
+Pedestrian
+Gender
+
+Land Use
+
+Fall
+Spring
+Summer
+Winter
+1Peak
+
+(7:00–9:00)
+
+2Peak
+
+(16:00–19:00)
+
+Off-Peak
+
+(9:00–16:00)
+
+Other
+Weekdays
+Weekend
+19–24
+25–44
+45–64
+65–74
+75+
+Other
+Under 18
+Female
+Male
+Unknown
+26–44
+45–64
+65–74
+75+
+Other
+Under 25
+Female
+Male
+Unknown
+Female
+Male
+Unknown
+Commercial
+Community and
+
+Education
+
+Industrial
+Residential
+Sport and
+
+recreation
+
+Undefined
+
+Severity
+
+Fatal
+
+Serious
+injury
+
+Other
+injury
+
+Factors
+
+5.6% 49.4% 44.9% Vehicle type
+5.0% 53.3% 41.7%
+5.3% 49.9% 44.8%
+6.3% 48.6% 45.1%
+4.7% 40.4% 54.9%
+
+Bus
+Heavy vehicles
+Motor and bike
+Other
+Passenger car
+
+Severity
+
+Fatal
+
+Serious
+injury
+
+Other
+injury
+
+0
+
+55.6% 44.4%
+27.3% 27.3% 45.5%
+2.5% 54.3% 43.2%
+22.4% 46.9% 30.6%
+5.2% 51.2% 43.6%
+
+15.8% 61.8% 22.4%
+
+Taxi and van
+
+4.9% 39.9% 55.2%
+
+3.1% 46.4% 50.4%
+
+Tram and train
+
+7.1% 51.8% 41.1%
+
+condition
+
+condition
+
+Flash
+No control
+Pedestrian crossing
+Pedestrian light
+School crossing
+Unknown
+Dry
+Icy
+Other
+Wet
+Clear
+Dust
+Fog
+Raining
+Strong wind
+Unknown
+
+6.8% 55.1% 38.1% Traffic
+5.1% 48.7% 46.2%
+7.0% 55.2% 37.8%
+3.2% 52.0% 44.8%
+5.5% 51.6% 42.9%
+4.9% 47.7% 47.4%
+9.3% 47.5% 43.2% Surface
+13.0% 51.6% 35.3%
+50.0% 50.0%
+2.1% 49.5% 48.3%
+3.6% 47.8% 48.5% Atmosphere
+condition
+7.1% 52.0% 40.9%
+66.7% 33.3%
+5.4% 49.1% 45.6%
+4.8% 48.4% 46.8%
+5.0% 54.5% 40.6%
+6.6% 48.7% 44.7% Light condition Dark light on
+Dark no light
+9.1% 63.6% 27.3%
+Day
+6.9% 53.8% 39.2%
+4.2% 49.8% 46.0%
+Dusk/dawn
+Other
+6.3% 50.6% 43.2%
+< 60
+> 70
+60–70
+Other
+Divided double line (DD)
+Divided single centerline
+
+3.3% 45.2% 51.5% Road dividing
+3.7% 61.1% 35.2%
+
+3.6% 47.8% 48.5%
+7.1% 52.0% 40.9%
+66.7% 33.3%
+
+25.0% 75.0% Speed limit
+
+type
+
+0
+
+0
+
+3.4% 50.4% 46.2%
+5.7% 51.0% 43.3%
+5.4% 48.6% 45.9%
+6.6% 50.0% 43.4%
+16.7% 16.7% 66.7%
+4.3% 42.7% 53.0%
+5.3% 49.7% 45.0%
+
+0
+
+100.0%
+
+0
+
+0
+
+0
+
+0
+0
+
+3.4% 25.4% 71.2%
+7.8% 59.3% 32.9%
+5.7% 50.0% 44.3%
+100.0%
+66.7% 33.3%
+5.4% 62.3% 32.3%
+50.0% 50.0%
+3.2% 23.8% 73.0%
+9.4% 60.0% 30.6%
+20.0% 48.2% 31.8%
+3.2% 46.1% 50.8%
+4.9% 52.9% 42.2%
+54.5% 45.5%
+1.1% 44.0% 54.9%
+16.4% 58.9% 24.6%
+6.1% 53.2% 40.7%
+1.0% 33.7% 65.4%
+12.8% 54.4% 32.8%
+6.3% 53.7% 40.0%
+
+0
+
+10.7% 52.7% 36.7%
+5.2% 55.5% 39.3%
+8.3% 46.9% 44.8% Existence of
+
+road median
+
+representation (DS)
+
+Not divided (ND)
+Unknown (U)
+Yes
+
+4.2% 49.1% 46.7%
+3.8% 46.8% 49.4%
+5.5% 50.2% 44.3%
+
+6.2% 49.9% 43.9%
+
+No
+
+1.0% 40.0% 59.0%
+
+858
+
+A. T. Pour et al.
+
+Fig. 1 Melbourne metropolitan area and its suburbs
+
+socioeconomic data. The final dataset used contained
+3577 crashes, of which 152 (4%) were fatal crashes,
+1679 (47%) were serious injury crashes and 1746
+(49%) were other injury crashes. It should be noted that
+20% of pedestrian, 11% of drivers and only 6% of both
+drivers and pedestrians had the same postcode for the
+crash location and residency locations. Table 1 and 2
+show the summary of categorical and continuous vari-
+ables used in this research.
+
+Method
+
+GIS is applied in this research to compile the dataset. All
+data including crash data, social and economic data and
+traffic data are added as separate layers in Arcmap GIS
+and merges using the postcodes of the crash locations
+and the postcodes of the road users’ addresses to their.
+The final dataset includes traffic and road characteristics
+data, personal characteristics data and socioeconomic
+data for location of crashes and road users’ residency
+neighborhood. Then, this final dataset is applied in
+boosted decision tree (BDT) to identify contributing
+factors for vehicle-pedestrian crashes. Figure 2 shows
+the method that is applied in this research.
+
+Non-parametric techniques such as decision tree
+(DT) and support vector machine have been used in
+different traffic crash severity analysis [33–38]. The
+DT approach is a simple and powerful method to solve
+classification problems and provides a graphical struc-
+ture using a tree with many branches and leaves. These
+graphical features are useful in understanding and
+interpreting the results [34].
+
+In DT models, the root node in top of tree which
+contains all objects is split into two homogeneous sets that
+are called child nodes. Then, DT splits child nodes until no
+further split can be made, i.e. all child nodes are homog-
+enous (or a user-defined minimum number of objects in
+the node is reached). These final nodes are called terminal
+nodes or leaves and they have no branches. DT then
+removes all branches with little impact on the predictive
+value of the tree. In the DT technique, the best tree is
+determined by dividing the sample into learning and test
+sub-samples and the testing error rates or costs are used to
+prune the tree. The learning sample is used to grow an
+overly large tree. Then, the test sample is used to estimate
+the rate at which cases are misclassified (possibly adjusted
+by misclassification costs). The misclassification error rate
+is calculated for the largest tree and also for every sub-tree.
+The best sub-tree is the one with the lowest or near-lowest
+cost, which may be a relatively small tree.
+
+Neighborhood Influences on Vehicle-Pedestrian Crash Severity
+
+859
+
+Fig. 2 Methodology that is applied in this research
+
+One disadvantage of the DT model is that it is often
+unstable, and the results may change significantly with
+changes in the training and testing the data [39]. There-
+fore, ensemble models, such as bagged decision tree
+(BgDT), boosted decision tree (BDT) and random forest
+(RF), are applied in some studies to improve the reli-
+ability and accuracy of DT models [24, 40–44]. Since
+BDT has better performance in vehicle-pedestrian crash
+severity analysis than DT and BgDT models [24], BDT
+model is applied in this research to explore the factors
+contributing to vehicle-pedestrian crash severity.
+
+BDT combines regression trees and boosting technique
+to improve the performance of DT models. Boosting is a
+forward and stage-wise procedure in which a subset of data
+is randomly selected to iteratively produce new tree models
+to improve the quality of prediction [45]. This process
+introduces a stochastic gradient boosting procedure that
+can improve model performance and reduce the risk of
+over-fitting [46]. In stochastic gradient boosting procedure,
+at each iteration, a subsample of the training data is drawn
+at random (without replacement) from the full training
+dataset. The randomly selected subsample is then used,
+instead of the full sample, to fit the base learner.
+
+In this approach, after the first tree is fitted, the
+residuals are calculated. In BDT, the difference between
+the target function and the current predictions of an
+ensemble is called the residual. In next step, observa-
+tions with high residual values are defined as an obser-
+vation with high prediction error. Then, BDT calculates
+the adjustment weights using Eq. 1:
+
+
+
+ð1Þ
+
+
+
+
+
+1 þ m ið Þ4
+
+1 þ m ið Þ4
+
+w ið Þ ¼
+

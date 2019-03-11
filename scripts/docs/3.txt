@@ -1,0 +1,432 @@
+Exploring Vehicle–Pedestrian Crash 
+Severity Factors on the Basis of  
+In-Car Black Box Recording Data
+
+Tai-Jin Song, Jaehyun (Jason) So, Jisun Lee, and Billy M. Williams
+
+This study investigated the main factors affecting the severity of injury 
+to pedestrians in taxi–pedestrian crashes on urban arterial roads. Video 
+data recorded by an in-car black box were used. Because the video data 
+provided direct crash observation, they were more reliable than the crash 
+data, and video images and speed profiles retrieved from the black box 
+were advantageous for safety studies. For analysis of the black box data, 
+this study defined new explanatory variables that affected injury sever-
+ity; these variables could not have been identified by the conventional 
+method, which was based on crash reports. A multiple-indicator and 
+multiple-cause model was used to investigate the relationship between the 
+explanatory variables and injury severity. A total of 484 taxi–pedestrian 
+crash scenes over 2 years was used for the multivariate analysis in the 
+city of Incheon, South Korea. The crash characteristics most strongly 
+associated with increased crash severity were failure by the pedestrian 
+to watch for approaching vehicles, jaywalking by the pedestrian, the 
+pedestrian being elderly, excessive vehicle speed, failure by the driver 
+to immediately stop, limited driver vision, and nighttime. This study 
+emphasized the potential of individualized black box video recording 
+data for crash severity analysis and investigation of the causal factors 
+of crashes.
+
+With economic growth and technological advances, vehicle owner-
+ship has dramatically increased in the past decades as more people 
+possess the means to purchase private vehicles. Whereas the improve-
+ment of traffic mobility was an important issue in the past, traffic 
+safety has recently become a major worldwide social issue because 
+of the millions of vehicle crashes and deaths every year. The World 
+Health Organization publicized that approximately 1.2 million people 
+died, 50 million people were injured, and 518 billion U.S. dollars of 
+global social expenses were lost because of road crashes each year in 
+the recent decade (1). The World Health Organization also stated that 
+the road crash is not only an offshoot of vehicular mobility but also a 
+major global social issue that threatens people’s lives.
+
+The various types of traffic crashes include vehicle-to-vehicle 
+crashes, vehicle-to-pedestrian crashes, and single-vehicle crashes. 
+
+T.-J. Song, Big Data Analysis and Modeling Group, Department of Transport 
+Big  Data  Research;  J.  So,  Department  of  Transport  Technology  Research; 
+and J. Lee, Department of Road Transport Research, Korea Transport Insti-
+tute,  370  Sicheong-Daero,  Sejong-Si  30147,  South  Korea.  B. M.  Williams, 
+Department  of  Civil,  Construction,  and  Environmental  Engineering,  College 
+of Engineering, North Carolina State University, Campus Box 7908, Raleigh, 
+NC 27695-7908. Corresponding author: J. So, jso@koti.re.kr.
+
+Of these crash types, the vehicle-to-pedestrian crashes are an espe-
+cially critical problem because the severity level of fatality and injury 
+is high. According to the Road Traffic Authority in South Korea, 
+45.5% of the fatal crashes that have occurred since 1990 were 
+pedestrian-related crashes, and this proportion is slightly increasing 
+(2). Therefore, the pedestrian-related crashes need to be taken more 
+seriously within the traffic safety research community to reduce 
+fatalities on roadways.
+
+Given  such  circumstances,  several  research  efforts  have  been 
+made to investigate the factors that affect crashes on the basis of 
+the crash reports made by police officers through interviews with 
+the people in the crash or the witnesses. However, this conventional 
+method can be limited in two aspects. One is that the crash report 
+does not show comprehensive information before and after a crash 
+occurs because the reports are always made after a crash. Therefore, 
+information about the maneuvering of the vehicle, such as speed 
+and acceleration or deceleration, and the situation of the pedestrian 
+before and after a crash can be limited. The other limitation is that 
+the explanatory variables extracted (i.e., causes of crash) are limited 
+to the crash report because the factors can be retrieved only by the 
+questions asked in the crash report.
+
+This study proposes a new data source: video recordings that can 
+be obtained from black box devices mounted on the vehicles. The 
+data can be used for investigating factors that affect crash severity. 
+The black box is capable of not only recording video images but 
+also storing the observed speed and acceleration and deceleration 
+data before and after a crash. This capability is beneficial for recon-
+structing and understanding the crash situations. Also, black box 
+data provide comprehensive information, including variables that 
+cannot be identified by the crash reports made by police officers.
+
+Therefore, this study aims to identify new factors associated with  
+vehicle–pedestrian crash severity (specifically taxi–pedestrian crashes) 
+by analyzing the video recording data. The study also aims to inves-
+tigate the relationship between the crash severity factors and the 
+resulting crash severity by using a multiple-indicator and multiple-
+cause (MIMIC) model (3). Finally, the recommendations to mitigate 
+the severity of pedestrian-related crashes are discussed on the basis 
+of the findings of this study. The authors expect that this in-vehicle 
+black box application and the case for crash severity analysis would 
+be used to improve pedestrian safety in the near future.
+
+Literature review
+
+Transportation Research Record: Journal of the Transportation Research Board, 
+No. 2659, 2017, pp. 148–154.
+http://dx.doi.org/10.3141/2659-16
+
+The  authors  reviewed  the  previous  safety  studies  focusing  on 
+pedestrian–vehicle crash severity and the risk factors affecting the 
+severity. Haleem et al. identified the factors affecting crash injury 
+
+148
+
+Song, So, Lee, and Williams 
+
+149
+
+severity using 3 years of pedestrian crash data in Florida, which 
+were recorded by police officers (4). The risk factors considered in 
+this study include geometric predictors (e.g., presence and type of 
+crosswalk and presence of pedestrian refuge area), traffic predictors 
+(e.g., annual average daily traffic, posted speed limit, and percentage 
+of trucks), road user variables (e.g., pedestrian age and pedestrian 
+maneuver  before  crash),  environmental  predictors  (e.g., weather 
+and lighting conditions), and vehicle-related predictors (e.g., vehi-
+cle type). The analysis was conducted with mixed logit modeling,  
+and the results showed that standard crosswalks reduced crash sever-
+ity 1.36% and at-fault pedestrians were more vulnerable than other 
+pedestrians at unsignalized intersections. Koopmans et al. used Illi-
+nois state crash data to investigate pedestrian–vehicle crash sever-
+ity levels by pedestrian age (5). The crashes were categorized by 
+five groups (fatal, severe, moderate, minor, and none) and by five 
+age groups (younger than 5, 5 to 9, 10 to 14, 15 to 19, and 20 and 
+older). The results indicated that the crash severity decreased as age 
+increased. Niebuhr et al. also investigated pedestrian–vehicle crash 
+severity with crash data from the German In-Depth Accident Study 
+(6). This study categorized ages by three groups: children (0 to 14), 
+adults (15 to 60), and older adults (older than 60) and analyzed the 
+data by using a weighted least squares approach. The modeling results 
+showed that the elderly and children were more likely to be severely 
+injured than young adults. This result was also found in several other 
+studies (7–10). Aziz et al. investigated the causal factors affecting 
+pedestrian–vehicle injury severity using New York City crash data 
+(11). This study used a random parameter logit model to explain the 
+relationship between possible factors and the injury severity. The mod-
+eling results showed that road characteristics (e.g., number of lanes, 
+grade, light condition, road surface), traffic attributes (e.g., presence 
+of signal control, type of vehicle), and land use (e.g., parking facilities, 
+commercial and industrial land use) were statistically significant, indi-
+cating that these variables significantly affected the injury severity of 
+pedestrians. Al-Ghamdi investigated the characteristics of pedestrian–
+vehicle crashes on the basis of police reports and the hospital records 
+of victims from 1997 to 1999 (12). The crash data were analyzed by 
+two odds ratio techniques, Woolf’s and Mantel–Haenszel’s, and the 
+analysis showed that young and old age groups (1 to 9 years, 10 to 
+19 years, and 60 to 80 years) are at a higher risk of being involved 
+in pedestrian–vehicle crashes. Zajac and Ivan used an ordered pro-
+bit model to evaluate the effect of roadway and area type features on 
+injury severity of pedestrian crashes (13). The pedestrian crash data 
+were obtained from the Connecticut Department of Transportation 
+Office of Inventory and Forecasting. The injury severity level of these 
+crashes were coded with the KABCO injury scale (14), consisting of 
+the following five severity levels:
+
+•	 K = fatality (killed);
+•	 A = incapacitating or disabling injury, cannot leave the scene 
+without assistance (e.g., broken bones, severe cuts, unconsciousness);
+•	 B =  nonincapacitating  or  nondisabling  injury,  but  visible 
+
+(e.g., minor cuts, swelling, limping, bruises and abrasions);
+
+•	 C = possible injury, but not visible (e.g., complaint of pain or 
+
+momentary unconsciousness); and
+
+•	 O = property damage only, no injury.
+
+The roadway and area type variables of each crash data set were 
+paired with the KABCO scale. The analysis showed that five features 
+(roadway width, vehicle type, driver alcohol involvement, elderly 
+pedestrian, and pedestrian alcohol involvement) appeared to signifi-
+
+cantly affect the pedestrian’s injury severity, and the crashes of those 
+who were severely injured occurred more frequently in downtown 
+and compact residential areas. Zhang et al. also investigated factors 
+affecting the severity of vehicle traffic crashes involving the elderly 
+(15). The crash data used for this study were obtained from the Cana-
+dian Traffic Accident Information Databank, compiled from police 
+crash reports in Ontario, Canada. On the basis of the multivariate 
+unconditional logistic regression analysis, the study indicated that 
+several factors were significantly related to an increased risk of fatal 
+injury in crashes. The factors were age, sex, failing to yield right-
+of-way or disobeying traffic signs, nonuse of seat belts, ejection 
+from vehicle, intersection without traffic controls, roads with higher 
+speed limits, snowy weather, head-on collisions, two-vehicle turn-
+ing collisions, overtaking, and changing lanes. Many studies have 
+been conducted to identify the factors affecting pedestrian-involved 
+crashes or injury severity by employing different statistical model-
+ing approaches: a zero-inflated Poisson distribution (16), a clas-
+sification and regression tree (17), a heteroskedastic generalized 
+extreme value model (18), and an ordered logit model (19). All the 
+safety studies reviewed in this section were conducted on the basis 
+of police-recorded crash data.
+
+There is another stream to analyze traffic situations during crashes. 
+An event data recorder (EDR) has been recently highlighted for post-
+crash analysis, mainly to investigate vehicle maneuvers during the 
+crash situations (20–23). The data extracted from an EDR provide 
+vehicle trajectories, including speed information such as the change 
+in velocity before and after a crash occurs, without images. Sev-
+eral studies used EDR data to reconstruct crashes and understand 
+vehicle maneuvers performed during the crashes (20, 21, 23, 24). 
+The key purpose of investigation of these studies was to estimate 
+change of velocity in categorizing serious and nonserious occupant  
+injury (20, 25).
+
+Some studies used an automated video-based computer vision 
+technique to reconstruct crash scenes and analyze the causes (26, 27). 
+This work can detect the movements of the road entities, including 
+pedestrians, bicycles, and vehicles across an intersection. How-
+ever, the main obstacle of using this technique lies in the ability of 
+video-based data collection.
+
+The authors found one study that used black box video record-
+ing data. Chung and Chang used a vehicle black box to assess 
+the accuracy of police-recorded crash data by comparing them 
+with  the  crash  data  recorded  by  the  black  box  (28).  This  study 
+extracted pedestrian–taxi crash data from the crash data recorded 
+by  the  black box and used them as a ground truth to assess the 
+accuracy of data from police reports. This study found that the spa-
+tial (i.e., crash location) and temporal (i.e., crash timing) average 
+deviations between the black box data and the police-recorded data 
+were 84.84 m and 29.05 min, and the average speed error (i.e., right 
+before a crash occurs) was 9.03 km/h.
+
+From  the  literature  review,  significant  efforts  have  been  made 
+to identify the factors affecting crash severity and the relationship 
+between potential factors and the resulting crash severity. However, 
+most previous safety studies relied on the crash reports made by 
+police officers or governmental authorities; this reliance can limit 
+the study in the consideration of potential additional factors that are 
+not listed in the crash reports. Also, because the questionnaire for 
+a crash report is answered after a crash, the method based on crash 
+reports cannot account for the whole crash situation, including before 
+and after the crash. Whereas the conventional crash report method 
+has such limitations, the data from black box video recordings can 
+provide additional factors that could not be identified from the crash 
+
+150 
+
+Transportation Research Record 2659
+
+reports. Also, because EDR is not capable of providing images, the 
+video recording data are expected to be a promising new source of 
+data for crash analysis. Therefore, this study investigated the potential 
+benefits of the video recording data on crash severity analysis.
+
+system, how they are slightly different from the most advanced EDR, 
+and data combination processing for two heterogeneous crash data 
+sources (i.e., police-recorded data and black box-recorded data) (28).
+
+MethodoLogies
+
+data Collection
+
+Black box video data were recorded using the Bosch X-DRIVEN 
+commercial driving recording device (29). This device and the 
+deployed software not only record videos, including images and 
+sound, but also collect vehicle trajectories, such as speed, accelera-
+tion and deceleration, and latitude and longitude, with the resolu-
+tion of 0.1 s. The black box video data were collected for 2 years 
+(2010 and 2011) in the city of Incheon, South Korea, by the Incheon 
+Taxi Mutual Aid Association, which was established by taxi drivers 
+for enhancing drivers’ welfare. This organization recently installed 
+black box devices in their vehicles to better respond to possible 
+legal issues when crashes occur. Because the video recording data 
+were extracted from the black boxes installed on taxis, this study 
+used only the crashes involving taxis and pedestrians; 484 crashes 
+were collected for the study.
+
+Whereas conventional safety studies rely on police crash reports, 
+the black box data enabled the authors to observe comprehensive 
+crash-related information by providing continuous crash scenes 
+before and after crashes. Figure 1 shows a screenshot of one black 
+box video that recorded a crash between a taxi and a child. In this 
+screenshot, continuous video data streams are provided in the top 
+left corner; three-dimensional acceleration information with 0.1-s 
+time resolution is provided on the bottom of the video stream; instan-
+taneous speeds 30 s before and after the crash are provided in the 
+middle of the bottom in the screenshot; and latitudinal and longi-
+tudinal information are shown in the right corner of Figure 1. From 
+this continuous video data stream, additional information that police 
+reports cannot provide can be obtained: the child did not recognize 
+that the taxi was coming; the driver was driving at 7.1 km/h; the 
+driver did not take evasive action; and the vehicle failed to stop and 
+drove 5 m more after the crash. Much additional information was 
+collected by analyzing the black box data, and this crash information 
+yielded variables in the crash severity model developed in this study. 
+For more detailed information, Chung and Chang introduced vehicle 
+black box technology used in this study, including the black box 
+
+variable selection
+
+Both dependent and independent variables were defined and extracted 
+through analysis of the black box video data. As for the dependent 
+variables, the crashes were categorized by four levels of crash sever-
+ity: death (within 30 days of the crash), incapacitating injury (requir-
+ing hospitalization of 3 weeks or more), visible injury (requiring 
+hospitalization from 5 days to 3 weeks), and claim pain (requiring 
+hospitalization of less than 5 days). In addition, the pedestrian’s 
+impairment level, indicating whether the pedestrian could stand up 
+without assistance, which was observed through the video recordings, 
+was used as a dependent variable. Therefore, two dependent variables 
+were used to develop the crash severity model.
+
+For the independent variables, there are four categories: pedes-
+trian characteristics, driver characteristics, crash condition, and time 
+period. Detailed variables for each independent variable category are 
+presented, with mean and standard deviation of the collected data, 
+in Table 1. A data reduction process was conducted to include only 
+valid crash data and exclude exceptions, such as the crashes with 
+unknown factors caused by poor video quality or limited range of 
+the black box. For example, the data were excluded in the following 
+cases: pedestrians went out of the vision of the black box after a crash 
+or pedestrians are unseen because the video is not bright enough 
+(e.g., at night or in shadow) or is of low quality.
+
+study hypotheses
+
+New variables that could account for crash severity were extracted, 
+as presented in Table 1. These variables explain the possible con-
+tributing factors before and after a crash. Specifically, a pedestrian’s 
+level of impairment and a vehicle’s failure to stop can build on the 
+assumption that a pedestrian who experiences a crash was not appro-
+priately walking or running, and the driver also may not immediately 
+stop the vehicle if the crash results in a severe condition. Additional 
+hypotheses were made as follows:
+
+•	 Pedestrian behavior on injury severity. Injury severity would 
+
+increase if the pedestrian
+
+– Could not check if a vehicle was approaching,
+– Was running (instead of walking),
+– Was jaywalking (illegally crossing midblock),
+– Was younger than 14 years old, or
+– Was older than 65 years old.
+
+•	 Vehicle maneuvers on injury severity. Injury severity would 
+
+increase if
+
+– The vehicle’s speed was higher or
+– A vehicle failed to immediately stop after a crash.
+
+•	 Driver  behavior  on  injury  severity.  Injury  severity  would 
+
+increase if
+
+– The vehicle ran a red light (red light running violation),
+– The driver could not see a pedestrian crossing because of 
+
+limited vision, or
+
+– The crash occurred at night.
+
+FIGURE 1    Continuous frame of pedestrian crash on X-Driven 
+program.
+
+With these hypotheses in mind, the behaviors of both pedestrians 
+
+and drivers were thoroughly observed by the authors.
+
+Song, So, Lee, and Williams 
+
+151
+
+TABLE 1    Description of Variables
+
+Variable
+
+Severity
+
+Variable Name
+
+Description
+
+Injury level
+
+Pedestrian impairment level
+
+Pedestrian characteristics
+
+Failure to watch for vehicles
+
+Running or walking
+
+Jaywalking
+
+Age 1
+
+Age 2
+
+Age 3
+
+Age 4 (elderly)
+
+Crash characteristics
+
+Initial speed
+
+Maneuver
+
+Driver characteristics
+
+Violation
+
+Failure of vehicle to stop
+
+Area of vision
+
+Day–night
+
+Others
+
+Claim pain (1): 45%
+Visible injury (2): 24%
+Incapacitating injury (3): 25%
+Death (4): 6%
+Not standing after crash (1): 71%
+Otherwise (0): 29%
+Not watching vehicle (1): 66%
+Otherwise (0): 34%
+Running before a crash (1): 27%
+Otherwise (0): 73%
+Illegal jaywalking during crash (1): 48%
+Otherwise (0): 52%
+Age 

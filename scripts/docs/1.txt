@@ -1,0 +1,779 @@
+Development of Crash Modification 
+Factors for Uncontrolled Pedestrian 
+Crossing Treatments
+
+Charlie Zegeer, Craig Lyon, Raghavan Srinivasan, Bhagwant Persaud,  
+Bo Lan, Sarah Smith, Daniel Carter, Nathan J. Thirsk, John Zegeer,  
+Erin Ferguson, Ron Van Houten, and Carl Sundstrom
+
+The objective of this study was to develop crash modification factors for 
+four treatment types: rectangular rapid-flashing beacon (RRFB), pedes-
+trian hybrid beacon (PHB), pedestrian refuge island (RI), and advance 
+yield or stop markings and signs (AS). From 14 cities throughout the 
+United States, 975 treatment and comparison sites were selected. Most 
+of the treatment sites were selected at intersections on urban, multi-
+lane streets, because these locations present a high risk for pedestrian 
+crashes and are where countermeasures typically are needed most. For 
+each treatment site, relevant data were collected on the treatment char-
+acteristics, traffic, geometric, and roadway variables, and the pedestrian 
+crashes and other crash types that occurred at each site. Cross-sectional 
+regression models and before–after empirical Bayesian analysis tech-
+niques were used to determine the crash effects of each treatment type. 
+All four of the treatment types were found to be associated with reduc-
+tions in pedestrian crash risk, compared with the reductions at untreated 
+sites. PHBs were associated with the greatest reduction of pedestrian 
+crash risk (55% reduction), followed by RRFBs (47% reduction), RIs 
+(32% reduction), and AS (25% reduction). The results for RRFBs had 
+their basis in a limited sample and must be used with caution.
+
+The safety of pedestrians who attempt to cross streets, particularly 
+on high-speed, high-volume multilane roads, continues to be a prob-
+lem in the United States. Furthermore, the safety effects of some of 
+the more promising treatments to reduce pedestrian crashes need to 
+be better understood. Numerous studies have been conducted in the 
+United States and abroad in recent years on the effects of various 
+geometric and traffic control treatments at unsignalized crossings. 
+However, most of those evaluations have relied on behavioral and 
+operational measures of effectiveness (e.g., pedestrian–vehicle con-
+flicts, vehicle speeds, and driver yielding behavior) rather than on 
+
+C. Zegeer, R. Srinivasan, B. Lan, S. Smith, D. Carter, N. J. Thirsk, and C. Sundstrom, 
+University of North Carolina Highway Safety Research Center, CB No. 3430,  
+730 Martin Luther King, Jr., Boulevard, Chapel Hill, NC 27599. C. Lyon, Persaud 
+and Lyon, Inc., 663 Gainsborough Avenue, Ottawa, Ontario K2A 2Y9, Canada.  
+B.  Persaud,  Civil  Engineering  Department,  Ryerson  University,  350  Victoria 
+Street, Toronto, Ontario M5B 2K3, Canada. J. Zegeer and E. Ferguson, Kittelson 
+and Associates, Inc., No. 810, 300 M Street, SE, Washington, DC 20003.  
+R. Van Houten, Center for Education and Research in Safety, Western Michigan 
+University, 1903 West Michigan Avenue, Kalamazoo, MI 49008. Corresponding 
+author: R. Srinivasan, srini@hsrc.unc.edu.
+
+Transportation Research Record: Journal of the Transportation Research Board, 
+No. 2636, 2017, pp. 1–8.
+http://dx.doi.org/10.3141/2636-01
+
+crashes as the measure of effectiveness (1). The lack of crash-based 
+evaluations for such pedestrian treatments largely results from sam-
+ple size issues. That is, pedestrian crashes usually do not cluster  
+to the same degree at specific sites, so a larger number of treatment 
+and comparison sites are needed to obtain sufficient statistical power 
+to detect a change in crashes as a result of the treatment, compared 
+with the evaluation of countermeasures for vehicle–vehicle crashes 
+that occur at a higher frequency.
+
+Thus evaluations conducted over a wider region and over a longer 
+time period are needed to obtain an adequate sample size to develop 
+crash modification factors (CMFs) or crash modification functions 
+(CMFunctions) that can provide guidance as to the most effective 
+pedestrian crossing treatments to use. NCHRP Project 17-56 sought 
+to develop CMFs for selected pedestrian crossing treatments for 
+various traffic and roadway conditions to the extent possible (2). 
+Initially, eight treatments were considered, but it was not possible 
+to find a sufficient sample of sites for all of these treatments. Also, 
+consideration was given to the selection of treatments for evalua-
+tion that were believed to be of the most interest to local and state 
+traffic and safety officials. On the basis of these considerations, the 
+following four treatments were selected for crash-based evaluation 
+in this study:
+
+•	 Rectangular rapid-flashing beacon (RRFB),
+•	 Pedestrian hybrid beacon (PHB),
+•	 Pedestrian refuge island (RI), and
+•	 Advance yield or stop markings and signs (AS).
+
+The next section describes the known research literature on these 
+treatments and is followed by details on data, analysis, results, rec-
+ommendations, and limitations. Further details about the study are 
+available in Zegeer et al. (2).
+
+Literature review
+
+AS treatments are a type of pavement marking placed before a cross-
+walk to increase the distance at which drivers stop or yield to allow 
+pedestrians to cross. An increase in the distance between yielding 
+vehicles and pedestrians increases the ability of motorists in other 
+lanes to see pedestrians as they cross and to yield accordingly. Pedes-
+trian visibility of oncoming traffic is improved. Ten previous studies 
+indicated that AS treatment reduced pedestrian–vehicle conflicts and 
+increased motorist yielding (1).
+
+1
+
+2 
+
+Transportation Research Record 2636
+
+Pedestrian RIs, sometimes referred to as center islands or pedes-
+trian islands, are raised areas that help protect pedestrians who are 
+crossing the road at intersections and midblock locations. The pres-
+ence of a median RI in the middle of a street or intersection allows 
+pedestrians to focus on one direction of traffic at a time as they cross 
+and gives them a place to wait for an adequate gap between vehi-
+cles. Islands are appropriate for use at uncontrolled and signalized 
+crosswalk locations. In cases in which the road is wide enough and 
+on-street parking exists, center islands can be combined with curb 
+extensions to further enhance pedestrian safety (3).
+
+Three reviewed studies reported crash reduction factors for the 
+construction of raised medians or pedestrian islands. One study 
+found that replacement of a 6-ft painted median with a wide raised 
+median reduced pedestrian crashes by 23% (4), which was consis-
+tent with findings from another study that pedestrian crash rates for 
+roads with 10-ft medians were 33% lower than for roads with 4-ft 
+painted medians (5). Finally, a before–after study was conducted 
+to evaluate the safety effectiveness of raised pedestrian RIs. The 
+researchers found a 73% reduction in midblock pedestrian crashes 
+but a 136% increase in total crashes. They noted that the decrease in 
+safety related to vehicle–island crashes might be addressed through 
+better island design and lane alignment (6).
+
+PHBs, also known as HAWK (high-intensity activated crosswalk) 
+beacons, were developed by Tucson, Arizona, traffic engineer Richard 
+Nassi in the late 1990s to provide safe pedestrian crossings in cases in 
+which minor streets intersected with major arterials (7, 8). A PHB is a 
+special type of beacon used to warn and control traffic at an unsignal-
+ized location to assist pedestrians as they cross a street or highway at 
+a marked crosswalk. The PHB signal head consists of two red lenses 
+over a single yellow lens. It displays a red indication to drivers when 
+activated, which creates a gap during which pedestrians can cross 
+a major roadway. The PHB signal indication for motorists is not  
+illuminated until it is activated by a pedestrian who triggers the 
+warning flashing yellow lens on the major street. After a set amount 
+of time, the traffic signal indication changes to a solid yellow light 
+to inform drivers to prepare to stop. The beacon then displays a dual 
+solid red light to drivers on the major street and a walking person 
+symbol to pedestrians. At the conclusion of the walk phase, the bea-
+con displays an alternating flashing red light to drivers, and pedes-
+trians are shown an upraised hand symbol with a countdown display 
+to inform them of the time left during which to cross. The first PHB 
+was installed in Tucson in 2000. The PHB was considered an experi-
+mental treatment until 2009 when it was included in the Manual on 
+Uniform Traffic Control Devices (9). PHBs are now widely used in 
+Tucson and have since been installed in Georgia, Minnesota, Florida, 
+Michigan, Virginia, Arizona, Alaska, and Delaware (10).
+
+One reviewed study reported crash reduction factors with respect 
+to the installation of PHBs in Tucson. Results of the analysis showed 
+a statistically significant reduction in total crashes of 29% as well 
+as a statistically significant reduction in pedestrian crashes of 69%. 
+The reduction in severe crashes was 15%, although this result was 
+not statistically significant (7).
+
+An RRFB is a type of amber LED installed to enhance pedestrian 
+crossing signs at midblock crossings or unsignalized intersections. 
+An RRFB can be automated or pedestrian actuated and features an 
+irregular, eye-catching flash pattern to call attention to the presence of 
+pedestrians. The RRFB was given interim approval as a crossing sign 
+enhancement by FHWA in 2008 (11). Nine studies were reviewed. All 
+of them indicated that RRFBs increased motorist yielding to pedestri-
+ans, which thereby helped to reduce pedestrian–vehicle conflict (1). 
+Figure 1 shows photographs of the four treatments evaluated in this 
+study.
+
+Data CoLLeCtion
+
+The research team used multiple methods to identify cities and 
+states that had installed pedestrian crossing treatments at unsignalized 
+intersections. The team conducted exploratory field work to iden-
+tify specific treatment and comparison sites in multiple cities across 
+the United States. On the basis of detailed information obtained 
+from each city, in terms of available treatments of interest for this 
+study, U.S. geographic distribution of cities, and other factors, the 
+14 cities selected for data collection for this study were Alexandria 
+and Arlington,  Virginia;  Cambridge,  Massachusetts;  Chicago, 
+Illinois; New York City; Miami and St. Petersburg, Florida; Tucson, 
+Scottsdale, and Phoenix, Arizona; Portland and Eugene, Oregon; 
+Charlotte, North Carolina; and Milwaukee, Wisconsin.
+
+The final database included 499 treatment sites and 476 com-
+parison sites. Comparison sites were selected to be as similar as 
+possible to the treatment sites, except that no treatment was present. 
+Efforts were made to select comparison sites similar to the treat-
+ment sites in terms of number of lanes, traffic volume, area type, 
+nearby location, and other characteristics (e.g., at a school, bus stop, 
+or shopping area). Table 1 summarizes the number of treatment and 
+comparison sites that were found and coded into the database. As 
+shown in Table 1, treatment sites often had combinations of two or 
+more of the studied treatments.
+
+Most of the sample sites were on roads with four or more lanes. 
+Of the 975 sites, 136 (27%) treatment and 87 (18%) comparison 
+sites were on two-lane roads. The project team decided to focus 
+on sites with four or more lanes and pedestrian crossings on arterial 
+streets and at transit stops, because these are the types of sites at 
+which pedestrian crashes are more likely to occur (rather than on 
+local two-lane streets) and at which pedestrian safety treatments are 
+more likely to be needed.
+
+The most common crosswalks in the database were those that had 
+no marked crosswalk (e.g., at untreated comparison sites), continental-
+style crosswalks, or ladder crosswalks. The transverse lines cross-
+walks were found at about 100 crossing sites. Multiple crosswalk 
+types (80 sites) were those that had two or more descriptive codes  
+(combined); for example, a yellow crosswalk with transverse line 
+markings, or a staggered crosswalk with continental markings, or a 
+diagonal crosswalk with ladder markings. Most of the treatment (75%) 
+and comparison (76%) sites were at intersections. Furthermore, a great 
+majority of treatment and comparison sites were in suburban areas. In 
+terms of transit use, approximately half the comparison sites were at 
+transit stops, and 41% of treatment sites were at transit stops.
+
+Data on pedestrian crashes and other crashes for each treatment and 
+comparison study site were provided electronically by the agencies, 
+as were data on annual average daily traffic (AADT). Few agencies 
+were able to provide pedestrian counts. Thus pedestrian volume was 
+collected in the field for 915 of the 975 sites. In the field, pedestrian 
+counts were collected for 1 to 2 h. The team adjusted these short counts 
+to daily volumes (i.e., 24-h volumes) on the basis of an analysis of city-
+wide, full-day pedestrian counts from Charlotte and previous research 
+in Seattle, Washington.
+
+Data anaLysis anD resuLts
+
+The aim of the analytical work was to use the most appropriate tech-
+niques to estimate CMFs or CMFunctions for pedestrian-involved 
+crashes and for all crashes, by type, for various treatments and 
+treatment combinations.
+
+(a)
+
+(b)
+
+FIGURE 1    Examples of (a) AS, (b) raised median island, (c) PHB, and (d) RRFB. (Source: Pedestrian and Bicycle Information Center, FHWA, 
+www.wichita.org.)
+
+(c)
+
+(d)
+
+TABLE 1    Treatment and Comparison Site Totals, by City
+
+City
+
+AS
+
+RI
+
+RRFB
+
+PHB
+
+AS and RI
+
+AS	and 
+RRFB
+
+AS	and 
+PHB
+
+RI	and 
+RRFB
+
+AS	and 
+RI	and 
+RRFB
+
+AS	and 
+RI and 
+PHB
+
+Total 
+Treatment 
+Sites
+
+Total 
+Comparison 
+Sites
+
+Arlington and Alexandria,  
+  Virginia
+Cambridge, Massachusetts
+Charlotte, North Carolina
+Chicago, Illinois
+Eugene, Oregon
+Miami, Florida
+Milwaukee, Wisconsin
+New York, New York
+Phoenix, Arizona
+Portland, Oregon
+Scottsdale, Arizona
+St. Petersburg, Florida
+Tucson, Arizona
+Total
+
+  1 
+
+21 
+
+0 
+
+0 
+
+  1 
+
+  0 
+
+  0 
+
+0 
+
+0 
+
+0 
+
+23 
+
+22 
+
+  2
+  0
+  0
+  0
+  0
+  0
+  0
+  4
+18
+  0
+72
+  0
+97
+
+9
+34
+33
+22
+24
+11
+17
+2
+6
+14
+1
+2
+196
+
+0
+0
+0
+1
+3
+0
+0
+0
+1
+0
+0
+0
+5
+
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+2
+
+  8
+  0
+  0
+  1
+  1
+  0
+  0
+  6
+33
+  2
+  7
+  1
+60
+
+  0
+  0
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+22
+  0
+25
+
+  0
+  2
+  0
+  0
+  0
+  0
+  0
+  3
+  0
+  1
+  3
+48
+57
+
+0
+0
+0
+3
+0
+1
+0
+0
+0
+0
+0
+0
+4
+
+0
+0
+0
+2
+2
+0
+0
+1
+1
+0
+10
+0
+16
+
+0
+0
+0
+0
+0
+0
+0
+2
+0
+1
+0
+34
+37
+
+19
+36
+36
+29
+30
+12
+17
+18
+61
+18
+115
+85
+499
+
+25
+112
+37
+27
+36
+18
+24
+16
+33
+16
+45
+65
+476
+
+4 
+
+Transportation Research Record 2636
+
+It was quickly realized that the preferred before–after study would 
+be limited in scope and robustness because of the relatively small 
+sample sizes, especially for pedestrian crashes. Thus considerable 
+effort was made to assemble a database for the alternative methodol-
+ogy, cross-sectional regression analysis, with recognition of the well-
+known limitations of this approach. In view of those limitations, it 
+still was necessary to conduct a before–after study, however limited, 
+to complement the cross-sectional analysis and seek to corroborate 
+the results.
+
+Although the primary target crash of the four pedestrian treatments 
+was the small subset of vehicle–pedestrian crashes, vehicle–vehicle 
+crashes were added to the analysis to investigate if they were affected 
+as well. If the treatments altered driver behavior, it was a logical pos-
+sibility. Rear-end and sideswipe crashes were combined, because it 
+was hypothesized that these types of vehicle–vehicle crashes might 
+be the crash types most likely to be affected by the pedestrian treat-
+ments and would be similar in this regard. The combined category 
+was considered the target vehicle–vehicle crash category.
+
+CMF estimation with Before–after  
+study Methodology
+
+The empirical Bayes (EB) methodology for observational before–after 
+studies was used to develop CMFs. In the EB approach, the CMF is 
+estimated on the basis of a comparison of the expected number of 
+crashes that would have occurred in the after period without the treat-
+ment and the number of reported crashes in the after period. The first 
+value is estimated in essence as a weighted average of the crashes that 
+occur before treatment and the prediction from a safety performance 
+function developed from a reference group of similar but untreated 
+sites that is adjusted for changes in traffic volume and time trends 
+between the periods before and after treatment. This methodology is 
+rigorous in that it properly accounts for regression to the mean and 
+these other changes and is included in the first edition of the Highway 
+Safety Manual as the state of the art for the conduct of observational 
+before–after studies (12) and is well documented in Hauer (13). Both 
+sources can be consulted for details on the methodology, which are not 
+presented here in the interests of brevity.
+
+The evaluation was conducted for three treatments with sufficient 
+sites: RI (68 sites), AS (69 sites), and PHB in combination with AS 
+(27 sites). Four crash types were investigated in the before–after 
+evaluation when possible: total, rear-end, sideswipe, and pedestrian. 
+Table 2 shows the estimated CMFs for the RI, AS, and PHB and AS 
+combination. For each treatment and crash type, the table shows the 
+actual crashes that occurred during the after period, the expected 
+
+crashes had the treatment not been implemented (estimated on the 
+basis of the EB procedure), variance of the expected crashes, the 
+CMF, the standard error of the CMF, and the p-value.
+
+For the RI treatment, the EB estimate of crashes in the before 
+period of the treatment group was higher than it was for the actual 
+crashes, particularly so for vehicle-involved crashes, which led to an 
+inexplicable increase in total crashes. This result was unexpected, 
+and hence the results for the RI treatment for the vehicle-involved 
+crash types were not considered reliable enough for inclusion. The 
+results for pedestrian crashes indicated a reduction of approximately 
+33%, which was significant at about the 13% significance level.
+
+For the AS treatment, the results indicated an approximate 11% 
+reduction in total crashes, a 20% reduction in rear-end and sideswipe 
+crashes, and a 36% reduction in pedestrian crashes. The reduction in 
+total crashes was statistically significant at about the 8% level, and 
+the reduction in the other two crash types was statistically significant 
+at the 5% level or lower.
+
+For the combination PHB and AS treatment, the results indicated 
+an approximately 18% reduction in total crashes and a 76% reduc-
+tion in pedestrian crashes. Both results were statistically significant 
+at the 5% level or lower. The changes in rear-end and sideswipe 
+crashes were not statistically significant at any reasonable signifi-
+cance level. The result for pedestrian crashes was quite consistent 
+with the 69% reduction reported by Fitzpatrick and Park (7) for the 
+same treatment at intersections in Tucson. Fitzpatrick and Park also 
+used the EB before–after evaluation method (7).
+
+CMF estimation from Cross-sectional 
+regression analysis
+
+The purpose of the cross-sectional regression analysis, as it was for 
+the before–after study, was to estimate CMFs or CMFunctions for 
+each of the four pedestrian treatments. It also was of interest to esti-
+mate CMFs for combinations of treatments. In fact, at many of the 
+sites one installed treatment was followed by one or more additional 
+treatments in later years. For most combination treatments, how-
+ever, the sample size was too limited to provide robust results. 
+The exceptions were PHB and RRFBs. Most sites that had these 
+treatments also had AS present. Several crash types were analyzed 
+separately for each treatment, including pedestrian crashes; rear-
+end plus sideswipe crashes; rear-end plus sideswipe crashes; fatal, 
+incapacitating injury, nonincapacitating injury, and possible injury 
+crashes; and total crashes.
+
+The cross-sectional analysis applied generalized linear modeling. 
+Because each site year of data was used as an observation, the issue of 
+
+TABLE 2    CMFs from Before–After Evaluation
+
+Treatment and 
+Number of Sites
+
+RI: 68 sites
+AS: 69 sites
+
+PHB and AS: 27 sites
+
+Crash Type
+
+Pedestrian
+Total
+Rear-end and sideswipe
+Pedestrian
+Total
+Rear-end and sideswipe
+Pedestrian
+
+Crashes 
+After
+
+EB Estimates of Crashes 
+Expected After
+
+Variance 
+(EB after)
+
+CMFa
+
+SE of CMF
+
+p-Value
+
+13
+671
+335
+21
+341
+182
+4
+
+18.8
+754.7
+416.2
+32.2
+413.2
+205.4
+15.6
+
+11.2
+2,254.5
+1,068.8
+27.4
+1,078.5
+460.9
+13.3
+
+0.671
+0.886
+0.800
+0.636
+0.820
+0.876
+0.244
+
+0.215
+0.065
+0.076
+0.169
+0.078
+0.111
+0.128
+
+.126
+.079
+.008
+.031
+.021
+.264
+.000
+
+Note: SE = standard error.
+aStatistically significant results at the 10% level are indicated in bold. 
+
+Zegeer, Lyon, Srinivasan, Persaud, Lan, Smith, Carter, Thirsk, Zegeer, Ferguson, Van Houten, and Sundstrom 
+
+5
+
+repeated measures of the data needed to be resolved in the specifica-
+tion of the models. The approach taken within the generalized linear 
+modeling framework to account for the repeated measures and nested 
+nature of the data was that of generalized estimation equations. This 
+approach ensured that the correlation between within-site observa-
+tions was accounted for and allowed for unobserved heterogeneity 
+between cities.
+
+The data set used to develop the CMFs for RIs did not include any 
+site that had an AS, PHB, or RRFB installed at any time during the 
+study period. For this and all treatments, the reference group sites 
+did not have any of the four main treatments installed. Likewise, 
+the data set used to develop CMFs for AS did not include any site 
+that had an RI, PHB, or RRFB installed at any time during the study 
+period. The data used to develop the CMFs for RIs and AS came 
+from Alexandria and Arlington, Cambridge, Charlotte, Chicago, 
+Eugene, Miami, Milwaukee, New York City, Phoenix, Portland, 
+Scottsdale, St. Petersburg, and Tucson.
+
+The data set used to develop CMFs for PHBs did not include any 
+site that had an RI or RRFB installed at any time during the study 
+period. Because many sites with PHBs also had AS, sites with these 
+signs were included in the data set. The sites also were limited to 
+the following cities in which a PHB existed: Charlotte, Portland, 
+Phoenix, Scottsdale, Tucson, and St. Petersburg.
+
+For pedestrian crash models, the data set used to develop CMFs 
+for RRFBs included all locations. This data set was needed to allow 
+for a sufficient sample of pedestrian crashes. For the other crash 
+types, the data set for RRFBs did not include any site that had an RI 
+or PHB installed at any time during the study period. Because many 
+sites with RRFB also had an AS, sites with these signs were included 
+in the data set. For the nonpedestrian crash models, the sites also 
+were limited to cities in which an RRFB existed: Chicago, Eugene, 
+Miami, Phoenix, Portland, and St. Petersburg.
+
+Cross-sectional Model results
+
+This section presents the CMFs implied by the relevant parameter 
+estimates of the cross-section models. For brevity, only one set of 
+models (RIs) is presented here by way of example. The following 
+considerations were applied to the making of decisions on variables 
+to include in the models.
+
+•	 The typical multiplicative crash prediction model form even-
+tually was applied with pedestrian and total AADT as separate 
+power model terms and the categorical variables for the city in which 
+a crossing was located, presence of a treatment, area type (urban 
+or  suburban),  and  crossing  location  (midblock  or  intersection) 
+as exponential terms.
+
+•	 Interaction terms were attempted—for example, the effect of 
+presence of treatment and crossing location—but these did not 
+improve the model’s capability to explain the variation in crashes 
+between sites.
+
+•	 Multilevel models were attempted to develop CMFunctions 
+through investigation to determine if the implied CMFs for the pres-
+ence of treatment varied by vehicle and pedestrian AADT and other 
+variables, but these, too, did not improve the results.
+
+•	 A city factor variable was included in the models to account for 
+differences in expected crashes between jurisdictions not related to 
+the treatment, which could include crash reporting practices, weather, 
+cultural issues, and the like. Inclusion of this variable estimated a 
+unique intercept term for each city in a model. The same logic applied 
+
+to the inclusion of the area type variable. Models with and without the 
+city variable and the area type were attempted before it was decided 
+whether to include the variable in the final models. (For the most part, 
+the variable was included.)
+
+Model Results: Example RIs
+
+The following model forms pertained to each crash type for the RI 
+models to predict the expected number of crashes per year.
+
+pedcrash
+
+=
+
+(
+exp
+
+a
+
++
+
+city+ RIpresence
+
+b
+
