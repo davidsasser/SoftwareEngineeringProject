@@ -7,7 +7,9 @@ var session = require('express-session');
 var pgSession = require('connect-pg-simple')(session);
 var expressValidator = require('express-validator');
 var passport = require('passport');
-
+var LocalStrategy = require('passport-local').Strategy;
+const flash = require('express-flash-notification');
+var bcrypt = require('bcrypt');
 
 const db = require('./db.js');
 var index = require('./routes/index');
@@ -24,7 +26,7 @@ app.use(session({
   resave: false,
   cookie: { maxAge: 30 * 24 * 60 * 60 * 1000 } // 30 days
 }));
-
+app.use(flash(app));
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -38,7 +40,41 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 })); 
 app.use(expressValidator());
 
+var hbs = require('hbs');
+hbs.registerPartials(__dirname + '/views/partials');
+
+app.use(function(req, res, next) {
+  res.locals.isAuthenticated = req.isAuthenticated();
+  next();
+});
 app.use("/", index);
+
+passport.use(new LocalStrategy(
+  function(username, password, done) {
+      console.log(username)
+      console.log(password)
+
+      db.query('SELECT user_id, password FROM user_account WHERE username = $1', [username], function(err, results, fields) {
+        if(err) {done(err)}
+
+        if (results.length == 0) {
+          done(null, false);
+        }
+        else {
+          const hash = results.rows[0].password.toString();
+
+          bcrypt.compare(password, hash, function(err, response) {
+            if (response == true) {
+              return done(null, {user_id: results.rows[0].user_id});
+            }
+            else {
+              return done(null, false);
+            }
+          });
+        }
+      })
+  }
+));
 
 app.listen(8000,function(){
   console.log("Live at Port 8000");

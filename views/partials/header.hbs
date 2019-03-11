@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<div class="header">
+  <a href="#default" class="logo"> Software Engineering Project: Group C </a>
+  <div class="header-right">
+    
+    <a class="{{#if active.home}}active{{/if}}" href="/">Home</a>
+    <a class="{{#if active.about}}active{{/if}}" href="/about">About</a>
+    {{#if isAuthenticated}}
+    <a class="{{#if active.search}}active{{/if}}" href="/search">Search</a>
+    <a class="" href="/logout">Logout</a>
+    {{else}}
+    <a class="{{#if active.login}}active{{/if}}" href="/login">Login</a>
+    <a class="{{#if active.register}}active{{/if}}" href="/register">Register</a>
+    {{/if}}
+  </div>
+</div>
