@@ -1,56 +1,656 @@
-See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/309308779
+The Effect of Zonal Factors in Estimating Crash Risks by Transportation
+ Modes: Motor Vehicle, Bicycle and Pedestrian
 
-The effect of zonal factors in estimating crash risks by transportation modes:
-Motor vehicle, bicycle and pedestrian
+ Jie WANG1, Helai HUANG1*, Qiang ZENG2 
 
-Article��in��Accident Analysis & Prevention � January 2017
+ School of Traffic and Transportation Engineering, Central South University, Changsha, Hunan, China
+ School of Civil Engineering and Transportation, South China University of Technology, Guangzhou,
+ Guangdong, China
+ *Correspondence
+ E-mail address: jie_wang@csu.edu.cn (J. Wang), huanghelai@csu.edu.cn (H. Huang), 
+ zengqiang@scut.edu.cn (Q. Zeng) 
 
-DOI: 10.1016/j.aap.2016.10.018
+ Abstract: Objectives: This paper aimed to (i) differentiate the effects of contributory factors on 13
+ crash risks related to different transportation modes, i.e., motor vehicle, bicycle and pedestrian; (ii) 14
+ explore the potential contribution of zone-level factors which are traditionally excluded or 15
+ omitted, so as to track the source of heterogeneous effects of certain risk factors in 16
+ crash-frequency models by different modes. Methods: Two analytical methods, i.e. negative 17
+ binomial models (NB) and random parameters negative binomial models (RPNB), were 18
+ employed to relate crash frequencies of different transportation modes to a variety of risk factors 19
+ at intersections. Five years of crash data, traffic volume, geometric design as well as macroscopic 20
+ variables at traffic analysis zone (TAZ) level for 279 intersections were used for analysis as a case 21
+ study. Results: Among the findings are: (1) the sets of significant variables in crash-frequency 22
+ analysis differed for different transportation modes; (2) omission of macroscopic variables would 23
+ result in biased parameters estimation and incorrect inferences; (3) the zonal factors (macroscopic 24
+ factors) considered played a more important role in elevating the model performance for 25
+ non-motorized than motor-vehicle crashes; (4) a relatively smaller buffer width to extract 26
+ macroscopic factors surrounding the intersection yielded better estimations. 27
+ Keywords: transportation modes; macroscopic variables; unobserved heterogeneity; buffer 28
+ width; intersection safety 29
+                                                                                       30
+ 
+1 Introduction 31
+ Many communities have increased their interest in the implementation of multimodal 32
+ transportation and advocated for the shift from motor vehicles to non-motorized modes of 33
+ transportation, i.e., walking and cycling. In spite of the health and environmental benefits, an 34
+ increasing number of crashes involving pedestrians and bicyclists has become a major concern in 35
+ improving traffic safety. For example in 2013, the United States had 4735 pedestrian and 743 36
+ bicyclist deaths, accounting for 18% of all U.S. highway fatalities (NHTSA, 2013). The Federal 37
+ Highway Administration’s office of safety has established pedestrian and bicyclist safety as one 38
+ of its top priorities. Thus, it is essential for traffic safety engineers to provide appropriate 39
+ countermeasures or policies to achieve friendly and safe multimodal transportation. 40
+ A comprehensive understanding of contributing factors associated with crash occurrences by 41
+ different modes is a prerequisite for developing safety improvement programs to effectively 42
+ reduce traffic crashes. For a given road entity (e.g. road segments or intersections), the potential 43
+ factors associated with multimodal crashes could be summarized as in Figure 1, according with 44
+ Miranda-Moreno et al. (2011), Mitra and Washington (2012), Ukkusuri et al. (2012) and Strauss et 45
+ al. (2003; 2014). The factors influencing road-entity-level crash frequency by modes include 46
+ macroscopic factors related to built environment of the road entities - such as population and 47
+ economic characteristics, land use characteristics and travel behaviors - as well as road features 48
+ 
 
-CITATIONS
-8
-
-3 authors, including:
-
-Helai Huang
-University of Texas at Arlington
-
-72 PUBLICATIONS���1,588 CITATIONS���
-
-SEE PROFILE
-
-READS
-119
-
-Qiang Zeng
-South China University of Technology
-
-23 PUBLICATIONS���184 CITATIONS���
-
-SEE PROFILE
-
-All content following this page was uploaded by Qiang Zeng on 10 October 2017.
-
-The user has requested enhancement of the downloaded file.
-
-1 
-2 
+ 
 3 
+ 
+and traffic characteristics of the road entities. In addition, crash occurrence is also associated with 1
+ individual characteristics such as gender, age, education, alcohol consumption, and other driver 2
+ and pedestrian behaviors (Ryb et al., 2007). Although discrete individual-level factors are not 3
+ available to be integrated into the crash-frequency model, individual characteristics are always 4
+ influenced by macroscopic factors (Christoffel and Gallagher, 1999). Therefore, macroscopic 5
+ factors could serve as a surrogate for individual behaviors. 
+
+ The choice of appropriate analytical method and the selection of representative explanatory 11
+ variables are two important considerations for obtaining accurate model predictions. Over the 12
+ past three decades, considerable research efforts have been devoted to developing and applying 13
+ sophisticated methodological approaches associated with the analysis of crash frequency. 14
+ Detailed descriptions and assessments of crash-frequency models can be found in the review 15
+ papers by Lord and Mannering (2010) and Mannering and Bhat (2014). However, relatively few 16
+ studies have focused on the identification and inclusion of traditionally excluded or omitted 17
+ variables in crash-frequency analysis. In particular, variables related to macroscopic factors 18
+ previously described (in Figure 1) are normally unavailable in crash databases and as a result 19
+ have rarely been examined in great detail. Mitra and Washington (2012) is one of a few studies 20
+ exploring the omitted variables in crash-frequency modeling. The authors developed two 21
+ different models of estimating intersection crash frequency, one with traffic volume as the only 22
+ independent variable, and the other with several spatial factors in addition to commonly 23
+ included geometric design and traffic factors. Through contrastive analysis of the two models, 24
+ results indicated that some spatial factors, such as local influences of weather, sun glare, 25
+ proximity to drinking establishment, proximity to school and demographic attributes near 26
+ intersections, have significant explanatory power and their exclusion leads to biased estimates. 27
+ Statistical methods such as spatial and temporal correlation, multilevel, random effect, 28
+ random parameter, and latent class approaches have been developed to address this issue of 29
+ unobserved heterogeneity (Anastasopoulos and Mannering, 2009; Dong et al., 2016; Mannering et 30
+ al., 2016; Quddus, 2008; Wang and Huang, 2016; Xu and Huang, 2015; Xu et al. 2016), as these 31
+ omitted explanatory variables can be regarded as part of the unobserved heterogeneity. 32
+ Unobserved heterogeneity impacts traffic safety analysis in two ways: the first problem is that the 33
+ selected explanatory variables cannot fully account for the cross-section or longitudinal-section 34
+ variations in crash counts due to unobserved road geometrics, environmental factors, driver 35
+ behavior and other confounding factors, which lead to impaired predictive performance of the 36
+ model (called heterogeneity in model prediction); the second problem is that these unobserved 37
+ factors are always correlated with observed factors and thus biased parameters will be estimated 38
+ and incorrect inferences could be drawn (called heterogeneity in the coefficient estimator). While 39
+ these approaches will mitigate the adverse impacts of omitting significant explanatory variables, 40
+ the resulting model estimates still fail to track the original source of heterogeneity and quantify 41
+ the safety effect of omitted variables (such as macroscopic factors shown in Figure 1). Omission of 42
+ 
+
+ 
 4 
+ 
+important explanatory variables still remains a problem even with advanced statistical 1
+ approaches to capture unobserved heterogeneity (Mannering et al., 2016). 2
+ The study by Mitra and Washington (2012) attempted to investigate the safety effect of some 3
+ important omitted variables on total crash frequency and their contribution on model estimation. 4
+ As Venkataraman et al. (2013) stated, frequency models of crash outcome type can provide 5
+ substantial insights into the effect of explanatory variables and assist in examining the 6
+ heterogeneity effects in roadway geometric features. This paper aims to extend previous research 7
+ (Mitra and Washington, 2012) and investigate how macroscopic factors affect the crash-frequency 8
+ analysis for different transportation modes. This is because there may be some inconsistent 9
+ impacts of some macroscopic variables on motor vehicle and non-motorized (including bicycle 10
+ and pedestrian) crashes. For example, Lee et al. (2015) utilized a multivariate model for 11
+ investigating motor vehicle and non-motorized crashes at the macroscopic level. Results for the 12
+ parameter estimation suggested that some zonal variables related to demographics and road 13
+ characteristics have different directional effects on motor vehicle and non-motorized crashes. 14
+ Meanwhile, the most appropriate width of buffer to extract macroscopic factors may be 15
+ inconsistent between modeling motor vehicle and non-motorized crashes. Therefore, it is 16
+ advisable to model the crash frequency by separate transportation modes to examine the effects 17
+ of macroscopic factors.  18
+ In summary the objective of this paper is twofold: (1) to examine the effects of a host of 19
+ contributing factors including both macroscopic and microscopic factors on crash occurrence 20
+ with respect to different transportation modes; (2) to shed further light on the contribution of the 21
+ macroscopic factors which are traditionally excluded or omitted variables, to tracking the source 22
+ of heterogeneity effects in coefficient estimators of regularly used variables and improving the 23
+ model performance in crash-frequency analysis related to different modes.  24
+ 
+2 Data preparation 25
+ In this study, data collected for 279 intersections located in Hillsborough County, Florida, 26
+ USA were used to develop the intersection crash-frequency models for different transportation 27
+ modes. The data for the analysis was mainly divided into four types: traffic crash data, traffic 28
+ characteristics, road characteristics related to geometric design, traffic control/regulatory of the 29
+ intersection, macroscopic factors including trip production/attraction, demographic and 30
+ socio-economic characteristics surrounding the intersection. The derivation and processing of 31
+ these data sources are described next.  32
+ 
+2.1 Crash data 33
+ Crash data for the intersections in a five-year period (2005–2009) were obtained from the 34
+ Florida Department of Transportation (FDOT) Crash Analysis Reporting (CAR) system. Crashes 35
+ were categorized as intersection related crashes if they occurred within the curb-line limits of 36
+ the intersection or if they occurred within the influence area of the intersection, which is 250 feet 37
+ away from the stop line. Intersection-level crash data was disaggregated into motor vehicle, 38
+ bicycle, and pedestrian crashes. A motor vehicle crash was defined as a collision between two or 39
+ more motor vehicles or between a motor vehicle and an object. A bicycle crash referred to a 40
+ collision between a motor vehicle and a bicycle. Likewise, a pedestrian crash denoted a collision 41
+ between a motor vehicle and a pedestrian.  42
+ 
+2.2 Traffic characteristics 43
+ Previous researches suggest that traffic characteristics such as motor vehicle, pedestrian and 44
+ bicycle volume are the most important factors influencing crash occurrences. Motor vehicle 45
+ 
+
+ 
 5 
-6 
-7 
-8 
-9 
-10 
-11 
+ 
+volume represented by average annual daily traffic (AADT) can be collected from the FDOT 1
+ Roadway Characteristics Inventory. Two motor vehicle volume variables including AADT from 2
+ major road and AADT from minor road of 5-year (2005–2009) average were also obtained. Actual 3
+ pedestrian and bicycle volume are not regularly available. The collected macroscopic data such as 4
+ population were used to serve as a surrogate for pedestrian and bicycle volume as suggested by 5
+ Jacobsen (2003) and Miranda-Moreno et al.(2011).  6
+ 
+2.3 Road features 7
+ Road features related to geometric design and regulatory/control attributes of the road entity 8
+ were collected from the FDOT Roadway Characteristics Inventory. The road factors considered in 9
+ the study are number of legs, presence of traffic signal, speed limit on major approach, and speed 10
+ limit on minor approach.  11
+ 
+2.4 Macroscopic factors 12
+ Considerable previous studies on zonal-level crash-frequency models suggests that various 13
+ macroscopic factors such as trip production/attraction, demographic and socio-economic 14
+ characteristics affect area-wide traffic crashes (Quddus., 2008; Huang et al., 2010, 2016; Abdel-Aty 15
+ et al., 2011; Xu et al., 2014; Dong et al., 2015, 2016). It is hypothesized that the number of crashes 16
+ occurring at an intersection is also associated with these macroscopic factors surrounding the 17
+ intersection.  18
+ Trip production/attraction factors such as total trip productions/attraction, home-based work 19
+ productions/attraction, college productions/attraction at the TAZ level were collected from the 20
+ Intermodal Systems Development Unit of District 7 of the FDOT. Demographic and 21
+ socio-economic characteristics were examined including the geographical area of each TAZ, 22
+ population, income and commuting, which were downloaded from the United States Census 23
+ report. 24
+ ArcGIS 10.0 was used to generate a buffer around each selected intersection and conduct a 25
+ spatial analysis to extract macroscopic data from the TAZ layers. The process is described in 26
+ detail as follows. First, a spatial overlay of TAZ layers on a specified width buffer (including 27
+ 0.25 mile, 0.5 mile and 1 mile buffer) was generated around each intersection. Then, spatial 28
+ analysis operators such as “intersect” and “join” available in the GIS environment were used to 29
+ intersect layers, join tables and extract selected trip production/attraction, demographic and 30
+ socio-economic characteristics within the generated buffer. Macroscopic factors were distributed 31
+ in proportion to the area of TAZ within the generated buffer. The ArcGIS procedure adopted to 32
+ extract and estimate macroscopic factors in this study was similar to the one discussed in detail 33
+ by Pulugurtha and Sambhara (2011) to develop pedestrian crash estimated models. 34
+ Table 1 provides descriptive statistics of crash data, traffic variables, road variables and 35
+ macroscopic variables located in 0.5 mile buffer. The values of macroscopic variables located at 36
+ 0.25 and 1 mile buffer are not listed for compactness of the table. 
+
+ 3 Methodology 3
+ In previous crash-frequency analyses, Poisson and Negative binomial model (NB), along 4
+ with their variants (such as Poisson-lognormal model), are commonly used and proven to be 5
+ successful as they effectively model the rare, random, sporadic, and non-negative crash data. As 6
+ crash data exhibit over-dispersion (i.e., variance greater than mean), NB is superior to the Poisson 7
+ model. Compared with the basic Poisson model, NB includes a gamma-distributed error term in 8
+ Poisson mean to account for the over-dispersion due to omission of relevant variables or 9
+ measurement error in crash data. The formulation for NB can be presented as follows: 10
+  ~Poisson i iY                                                         (1) 11 
+0ln i i i       X β                                                     (2) 
 12 
-
+Where i Y is the crash frequency by modes (i.e., motor vehicle, bicycle and pedestrian) at 13
+ intersection i, and i  is the expectation of i Y. i X is a vector of explanatory variables. 0  is the 14
+ intercept, β is a vector of estimable parameters. i  is the error term that is assumed to be 15
+ independent X and has a two-parameter gamma distribution. 16
+ The NB model presented in Eq.(2) could control for unobserved heterogeneity by omitted 17
+ variables. However, this model assumes that the unobserved variables are uncorrelated with the 18
+ observed exploratory variables. If this correlation exists, unobserved factors can introduce 19
+ variation in the effect of observed variables on crash likelihood. Random parameters approaches 20
+ are able to address this issue by allowing non-constant estimable parameters to vary across 21
  
 
  
+7 
+ 
+observations (Mannering et al., 2016). In random parameters negative binomial model (RPNB), 1
+ estimable parameters (β) in Eq.(2) can be written as:
+ 2 
+i i                                                                (3) 
+3 
+Where 
+
+ is the mean of the random parameter i 
+, i  is a randomly distributed term (e.g., 4
+ a normally distributed term with mean 0 and variance 2  ) that capture heterogeneity across 5
+ observations. The analyst can test for random parameters with Eq.(3), across all observations i for 6
+ each included explanatory variable. If the variance of the chosen distribution is not significantly 7
+ different from zero, it suggests that a conventional fixed parameter is statistically appropriate. 8
+ Thus the model always combines fixed and random parameters across the included explanatory 9
+ variables. 10
+ As previously stated, heterogeneity effects of certain risk factors mainly derive from the 11
+ combined effects of unobserved variables that have been omitted from the model. Although the 12
+ random parameters approaches could mitigate the adverse impacts of omitting variables, the 13
+ original source of unobserved heterogeneity (or what are the major factors that lead to 14
+ unobserved heterogeneity) still fails to be well understood. Thus one of the aims of this study is 15
+ to test the potential role of macroscopic variables (referring to as the influential omitted variables) 16
+ in tracking the source of heterogeneity effects related to commonly used traffic and road 17
+ variables. 18
+ To this end, two different model specifications are estimated and compared, both with 19
+ random parameters approaches. In the base model only traffic and road variables are included, 20
+ while the second model traffic and road variables as well as macroscopic variables at TAZ level 21
+ surrounding the intersections are included. If the test results for parameter estimation on a 22
+ variable appear as random in base model (variance of the chosen distribution is significantly 23
+ different from zero), while this variable has the fixed effect in the second model. Then we could 24
+ infer that the heterogeneity effect of this variable is mainly caused by these macroscopic variables. 25
+ For another case, the safety effect of this variable is still random in second model; the source of 26
+ heterogeneity effect of this variable still cannot be clearly distinguished, maybe due to other 27
+ important omitted variables.  28
+ Apart from the potential role in accounting for the heterogeneity effects in parameters 29
+ estimation, integrating the macroscopic variables could also decrease the variance of the random 30
+ error (i.e. overdispersion) and thus improve the model performance in crash-frequency 31
+ prediction. The proportion of reduction in variance (PRV), also called explained variance, 32
+ proposed by Raudenbush and Bryk (2002) can be used to assess the overall explanatory power of 33
+ macroscopic factors for modeling the crashes by different modes. In this case, the PRV of 34
+ macroscopic variables is defined as: 35
+ 2 2 0 1 2 0 -PRV                                                            (4) 36 Where 2 0  is the variance of the error term in the base model without macroscopic variables. 37
+ 2 1  is the variance of error term in the full model with macroscopic variables. The value of PRV is 38
+ bounded by 0 and 1, and a higher value indicates a stronger explanatory power of macroscopic 39
+ factors on the crash occurrence.  40
+ Furthermore, two goodness-of-fit statistics are used for model comparisons: Akaike 41
+ Information Criterion (AIC) and log-likelihood ratio (LR). 42
+ The AIC is calculated as follows: 43
+ 
+2 2 AIC LL p                                                                   (5) 
+44 
+Where LL is the log-likelihoods at convergence for the estimated model, and p is the 45
+ number of parameters in the statistical model. The model with the lower AIC is considered to 46
+ 
 
-Research highlights 
+ 
+8 
+ 
+have the better goodness of fit. 1
+ The LR value is the chi-squared value in the log-likelihood ratio test for the null hypothesis 2
+ test that reveals whether or not the equivalence of two models should be rejected. The likelihood 3
+ ratio statistic is, 4
+ 
+2( ) N A LR LL LL                                                                   (6) 
+5 
+which is 2  distributed with J degrees of freedom, where J = KA − KN (KA and KN are the 6
+ number of coefficients for the alternative model and the null model, respectively ), LLN and LLA are 7
+ the log-likelihoods at convergence for the null model and the alternative model, respectively. The 8
+ null hypothesis for Eq. (6) is that the alternative model does not have a significantly lower 9
+ log-likelihood than the null models, indicating a lack of significant difference between the null 10
+ model and the alternative model. 11
+ 
+4 Results and discussion 12
+ Three types of crash-frequency models for motor vehicles, bicycles and pedestrians were 13
+ developed. Each type of model involved eight separate models based on four model 14
+ specifications (one with only traffic volume and road features, the other three with macroscopic 15
+ factors overlaid on 0.25, 0.5, 1 mile buffer respectively in addition to commonly included traffic 16
+ volume and road features ) and two analytical methods (NB and RPNB). 17
+ LIMDEP econometric software was used to develop the statistical models described above. 18
+ To enable focus on the most significant variables, variables that were not found to significantly 19
+ different from zero at the 0.1 level of significant using a t-test were removed. Meanwhile, the 20
+ likelihood ratio test was used to guarantee that each added variable significantly improved the 21
+ overall model performance. In the RPNB, if the variance of a random parameter was not 22
+ statistically different from zero, the random parameter was simplified to be fixed across 23
+ intersections. Thus, the results in NB were in accordance with that in RPBN when no estimate 24
+ parameters of explanatory variable were statistically random.  25
+ This analysis below will emphasize testing effects of macroscopic factors on model 26
+ performance in crash-frequency analysis for three transportation modes, and then comparison 27
+ results of the parameter estimates and marginal effects between the base model and the full 28
+ model with macroscopic variables will be presented and interpreted. 29
+ 
+4.1 Effects of macroscopic factors on model performance 30
+ Tables 2-4 show goodness-of-fit measures for motor vehicle, bicycle and pedestrian 31
+ crash-frequency models, respectively. As shown in Table 2, only five of eight motor vehicle 32
+ crash-frequency models, including two base models (NB model and RANB model) and three 33
+ fully specified NB models, were presented since there was no significant random parameter as 34
+ measured by the t-statistics in all three models with macroscopic variables. Although there was 35
+ no substantial difference in goodness-of-fit as reflected by likelihood ratio test between the base 36
+ NB and RPNB model, the present of significant random parameters ( e.g. the variable of ‘presence 37
+ of traffic signal’ in this case study) demonstrated the existent of heterogeneity of risk factors in 38
+ base model without considering macroscopic factors. More interestingly, no significant random 39
+ parameters were found in all three full models with macroscopic variables. This implied that the 40
+ heterogeneous effects of risk factors on motor vehicle crash frequency could be mostly captured 41
+ by these macroscopic variables, at least for the Hillsborough dataset examined here. Frequency 42
+ analysis models for bicycle crashes presented a similar result to motor vehicles crashes, as shown 43
+ in Table 3. However, this was not the case for the pedestrian crash-frequency models (Table 4). 44
+ Significant random parameters, such as ‘presence of traffic signal’, existed both in pedestrian 45
+ crash models with and without macroscopic variables, suggesting that the heterogeneity effect in 46
+ 
 
-transportation modes. 
+ 
+9 
+ 
+parameters estimation cannot be completely picked up by these macroscopic variables. 1
+ Apart from the potential effect in tracking the heterogeneity, results also revealed that 2
+ incorporating the macroscopic variables in crash-frequency analysis leaded to an increasing 3
+ model complexity but a considerable improvement in overall fit as measured by log likelihood at 4
+ convergence. As shown in Table2, the likelihood ratio test comparing the full NB models and the 5
+ base NB models indicated that we were more than 99.99 % confident that the full models with 6
+ macroscopic variables (except the full model with 1.0 mile buffer-width macroscopic variables) 7
+ were statistically superior. This comparison suggested that the macroscopic variables explained a 8
+ portion of variability in crash occurrences and should not be omitted in motor vehicle 9
+ crash-frequency model. In regard to bicycle and pedestrian models, omission of macroscopic 10
+ variables will also lead to a significant decrease in goodness-of-fit, as shown in Tables 3-4. 11
+ Comparing model outputs developed based on 0.25 mile, 0.5 mile and 1 mile buffer width 12
+ data, these models with macroscopic variables of 0.25 mile buffer width had the lowest AIC, 13
+ conversely, the models with macroscopic variables of 1 mile buffer width had the highest AIC in 14
+ all three types of crash-frequency models by modes. Thus, a relatively smaller buffer width in 15
+ extracting macroscopic factors surrounding the intersection would yield a better estimate.  16
+ To further assess and compare the overall explanatory power of macroscopic variables, the 17
+ values of PRVs were calculated. As shown in Table 2, the motor vehicle crash-frequency model 18
+ with macroscopic variables of 0.25 mile buffer width had the highest PRV of 7.98%. This meant 19
+ that 7.98% of unexplained variation resulted from those omitted macroscopic variables, which 20
+ also suggested the usefulness of the motor vehicle crash-frequency analysis by integrating 21
+ macroscopic factors. Accordingly, the highest values of PRV were 33.02% and 26.37% in bicycle 22
+ and pedestrian crash-frequency models respectively, as shown in Tables 3-4.  
 
+ By comparing PRVs in models by different transportation modes, the PRVs in bicycle and 27
+ pedestrian crash-frequency model were much higher than that in motor vehicle models. In other 28
+ words, integrating macroscopic factors in non-motorized crash-frequency model was more vital 29
+ than that in developing motor vehicle model. This result was in line with the expectation. One 30
+ possible reason for this distinct effect is that pedestrian/bicycle volume (or pedestrian/bicycle 31
+ activity) which is commonly identified as the main determinants of pedestrian/ bicycle crash 32
+ frequency has been omitted in the base pedestrian/bicycle crash-frequency models. Integrating 33
+ macroscopic factors for pedestrian/bicycle crash-frequency analysis made up the absence of 34
+ 
+
+ 
+10 
+ 
+pedestrian/bicycle volume in predicting pedestrian/bicycle crash frequencies to some extent as 1
+ demonstrated by previous study (Jacobsen, 2003; Miranda-Moreno et al., 2011) that macroscopic 2
+ data can serve as a surrogate for pedestrian and bicycle volume. Another reason, maybe even 3
+ more importantly, originates from the differences in the travel distance between non-motorized 4
+ and motor vehicle modes. As walking and bicycle are short-distance transportation modes, crash 5
+ victims of pedestrians and bicyclists generally reside near the crash intersection, and thus, the 6
+ macroscopic factors extracted surrounding the intersection can probably better reflect pedestrian 7
+ and/or bicyclist behaviors than that for motor drivers. 
+
+ Three types of crash-frequency models for motor vehicles, bicycles and pedestrians were 2
+ estimated and each type involved eight separate models based on four model specifications and 3
+ two analytical methods, yielding a total of 24 models. Three full models which have a better 4
+ goodness-of-fit, including motor vehicle NB model with 0.25 mile buffer width macroscopic 5
+ variables, bicycle NB model with 0.25 mile buffer width macroscopic variables and pedestrian NB 6
+ model with 0.25 mile buffer width macroscopic variables, were selected as recommended models 7
+ for reasons outlined. Meanwhile, the parameter estimates of three base NB models for motor 8
+ vehicles, bicycles and pedestrians were presented for comparison. Tables 5-7 show the parameter 9
+ estimates and their t-statistics for motor vehicle, bicycles and pedestrians crash-frequency models, 10
+ respectively. Since the model has nonlinear coefficients, direct parameters will not show a unit 11
+ effect on the number of crashes. Table 8 thus summarizes the results for marginal effects, which 12
+ could be interpreted as the average impact of a unit change in an explanatory variable on crash 13
+ frequency. 14
+ Comparing marginal effects of microscopic variables (traffic volume and road variables) 15
+ between the full NB models and the base NB models revealed some important differences. The 16
+ major differences were in marginal estimates of the variable ‘presence of traffic signal.’ The 17
+ results in the base model using NB approach showed that ‘presence of traffic signal’ had positive 18
+ association with the crash frequency for all three transportation modes; while this variable 19
+ became no statistically significant for motor vehicle and bicycle crashes in the full NB models. 20
+ Meanwhile, the present of macroscopic variables also modified the marginal effects of 21
+ microscopic variables (see Table 8). For example, the marginal effects of ln(AADT-minor) were 22
+ 6.38 and 0.14 respectively for motor vehicle and bicycle crashes in the base models, while these 23
+ values were 7.67 for motor vehicle crashes and 0.17 for bicycle crashes in models with 24
+ macroscopic variables. This difference clearly showed that in the absence of important 25
+ macroscopic variables, the marginal effects of ln(AADT-minor) for motor vehicle and bicycle 26
+ crashes were biased downwards by 16.8% and 17.6% respectively. These results agreed with the 27
+ safety research by Mitra and Washington (2012) that the exclusion of important variables may 28
+ cause bias in coefficient estimates and incorrect inferences.  29
+ According to the results of parameter estimates (Tables 5-7) and their marginal effects (Table 30
+ 8), significant variable sets for crashes were not consistent for different transportation modes. 31
+ ‘AADT on major approach’ and ‘density of total population’ were two contributing factors that 32
+ had statistically significant effects on the three response variables (i.e., motor vehicle, bicycle and 33
+ pedestrian crash frequency). Four variables including ’AADT on minor approach,’ ‘number of 34
+ legs’, ‘proportion of college productions and attractions’ and ‘proportion of workers commuting 35
+ by public transportation’ were significant for two response variables. Six variables were solely 36
+ associated with one response variable: ‘presence of traffic signal’, ‘speed limit on major 37
+ approach,’ ‘speed limit on minor approach,’ ‘proportion of home-based productions and 38
+ attractions,’ ‘proportion of population between age 16 and 64’ and ‘proportion of workers 39
+ commuting by walking’. The detailed interpretations for these significant risk factors are offered 40
+ in the following. 
+
+ Similar to numerous prior studies, traffic volumes are significant variables for intersection 4
+ crashes and are positively correlated with crash occurrence (Lee and Abdel-Aty, 2005; Mitra and 5
+ Washington, 2012; Xie et al., 2013). The marginal effects of ln(AADT-major) were 47.65 , 0.59 and  6
+ 1.19 respectively for motor vehicle, bicycle and pedestrian crashes in the full models, indicating 7
+ that an average of thousand increase in major approach AADT will lead to a 2.31, 0.03 and 0.06 8
+ increase in motor vehicle ,bicycle and pedestrian crash frequency respectively. Similarly, an 9
+ average of thousand increase in minor approach AADT was associated with a 0.69 and 0.02 10
+ increase in motor vehicle and bicycle crashes. 11
+ 
+4.2.2 Number of legs 12
+ The marginal effects of ‘number of legs’ on motor vehicle and bicycle crashes were 24.28 and 13
+ 0.43. This result suggested that the four-legged intersection was associated with 24.28 more motor 14
+ vehicle crashes and 0.43 more bicycle crashes compared to the intersection with three legs. This 15
+ result was generally expected and agreed with the preliminary finding that a larger number of 16
+ legs may increase the likelihood of crash occurrence due to more potential conflicts (Zeng and 17
+ Huang, 2014). However, this variable did not found to have significant effects on pedestrian crash 18
+ frequency. This may be due to the higher design standards of facilities (such as marked 19
+ crosswalks) in the large-leg intersection that leads to mixed effects of ‘number of legs’ on 20
+ pedestrian safety. 21
+ 
+4.2.3 Traffic signal 22
+ The effects of traffic signal on safety are very interesting. The results of parameter estimates 23
+ in the base model using NB approach showed that ‘presence of traffic signal’ had positive 24
+ association with all three target variables. This is not consistent with the empirical hypothesis that 25
+ the installation of traffic lights could improve intersection safety. In the base model using RPNB 26
+ approach, ‘presence of traffic signal’ had a positive effect on three target variables but with a 27
+ varying magnitude across intersections (the results for the RPNB model were not presented since 28
+ there was no significant improvement in goodness-of-fit compared to the NB model). More 29
+ interestingly, this variable became no statistically significant for both motor vehicle and bicycle 30
+ crashes in the models integrating macroscopic variables. The possible reason for this difference is 31
+ 
+
+ 
+14 
+ 
+that the macroscopic variables could account for a positive and heterogeneity effect of the 1
+ ‘presence of traffic signal’. This implies that the installation of traffic lights itself will not increase 2
+ the crash risk but traffic lights are always installed at relatively hazardous sites; however, more 3
+ work is needed to verify this conclusion. 4
+ 
+4.2.4 Speed limit 5
+ The variables related to speed limit had inconsistent effects on crash occurrence by different 6
+ modes. ‘Speed limit on minor approach’ was positively correlated with the frequency of motor 7
+ vehicle crashes. An increase of 10 mph in speed limit on minor approach will increase motor 8
+ vehicle crashes by 18.7. This is generally expected since at high speeds the time to react to 9
+ changes in the environment is shorter, leading to higher crash frequency. However, ‘speed limit 10
+ on major approach’ was negatively associated with pedestrian crashes. The frequency of 11
+ pedestrian crashes will decrease by 0.6 with per 10 mph increase in speed limit on major 12
+ approach. The probable reason for this result is that a higher speed limit is always related with 13
+ higher design standards of facilities such as pedestrian overcrossing and underpass. The effect of 14
+ speed limit on bicycle crashes was not significant.  15
+ 
+4.2.5 Trip characteristics 16
+ Results showed that the proportion of home-based productions and attractions near an 17
+ intersection was negatively associated with motor vehicle crashes. The frequency of motor 18
+ vehicle crashes will decrease by 1.32 with a percentage increase in proportion of home-based 19
+ trips. This is reasonable since drivers of a home-based trip are more familiar with the traffic 20
+ environment and have more cautious driving behaviors (Abdel-Aty et al., 2011). ‘Proportion of 21
+ college productions and attractions’ was negatively associated with motor vehicle and bicycle 22
+ crashes while was not statistically significant for pedestrian crashes. A percentage increase in 23
+ proportion of college trips will result in a 1.52 and 0.03 decrease in motor vehicle and bicycle 24
+ crashes. The decreased motor vehicle and bicycle crashes may be due to better traffic control 25
+ measures in these areas. However, higher proportion of college productions and attractions, 26
+ which is always related to better traffic control measures and high number of walking trips, leads 27
+ to mixed effects on pedestrian crashes. 28
+ 
+4.2.6 Demographic characteristics 29
+ ‘Density of total population’ was the influential macroscopic variable and was positively 30
+ associated with all three target variables. The marginal effects of population density near an 31
+ intersection showed that an increase in population density will increase the frequency of motor 32
+ vehicle, bicycle and pedestrian crashes by 2.48, 0.08, and 0.12. This agrees with previous studies 33
+ as a larger population is always consistent with more opportunities in terms of crash exposure 34
+ (Lee et al., 2015; Mitra and Washington, 2012; Pulugurtha and Sambhara, 2011). In addition, the 35
+ proportion of population between age 16 and 64 near an intersection was found to have negative 36
+ effects on pedestrian crashes. The frequency of pedestrian crashes will decrease by 0.04 with a 37
+ percentage increase in proportion of population aged 16-64. This may be due to middle-aged 38
+ people walking less in comparison to young and/or old people, as well as having better ability in 39
+ avoiding crash risk (Huang et al., 2010). 40
+ 
+4.2.7 Commute behaviors 41
+ A percentage increase in proportion workers commuting by public transportation near an 42
+ intersection was associated with a 0.50 decrease in motor vehicles and a 0.10 increase in bicycle 43
+ crashes, indicating that the public transportation had opposite effects on motor vehicles and 44
+ bicycle crashes. In addition, ‘proportion of workers commuting by walking’ had significant and 45
+ positive associations with pedestrian crash occurrence. The number of pedestrian crashes will 46
+ 
+
+ 
+15 
+ 
+increase by 0.14, with a percentage increase in proportion workers commuting by walking. This 1
+ result is not surprising since walking is always associated with the exposure of pedestrian 2
+ crashes. 3
+ 
+5. Conclusions and recommendations 4
+ This paper sought to examine the effects of omitted macroscopic factors in crash-frequency 5
+ models by transportation modes at intersections. For this purpose, several separate 6
+ intersection-level crash-frequency model for motor vehicle, bicycle and pedestrian modes were 7
+ developed. Road characteristics related to geometric design and regulatory/control attributes and 8
+ traffic characteristics of the intersection entities, as well as macroscopic factors including trip 9
+ production/attraction, demographic and socio-economic characteristics and commute behaviors 10
+ at TAZ level surrounding the intersection, were used as explanatory variables. Those data 11
+ extracted for 279 intersections located in Hillsborough County, Florida, USA, were used for 12
+ model development.  13
+ The empirical analysis revealed a number of interesting findings. First, omission of 14
+ macroscopic variables would result in biased estimation of retained microscopic variables. 15
+ Results for marginal effects of traffic volumes and road features showed significant differences 16
+ between in the base model and the full model with macroscopic variables. For example, the safety 17
+ effect of minor approach AADT on motor vehicle and bicycle crashes are biased downwards by 18
+ 16.8% and 17.6% in the absent of macroscopic variables. 19
+ Second, macroscopic variables had potential effects in tracking the heterogeneity of certain 20
+ risk factors. The results in the base model using RPNB approach showed that the safety effect of 21
+ ‘presence of traffic signal’ was best fit with a normally distributed random parameter suggesting 22
+ ‘presence of traffic signal’ had heterogeneous effects across intersections; while this variable 23
+ became no statistically significant in models with macroscopic variables. This implied that the 24
+ heterogeneous effects of ‘presence of traffic signal’ on motor vehicles crashes could be mostly 25
+ captured by these macroscopic variables, at least for the Hillsborough dataset. 26
+ Third, model comparison using log likelihood at convergence suggested that considering 27
+ macroscopic variables was vital in elevating the model performance. In addition, the values of 28
+ PRV were further calculated to assess the explanatory power of macroscopic variables. Results 29
+ showed the values of PRV in bicycle and pedestrian crash-frequency model were much higher 30
+ than in motor vehicle models, indicating that integrating macroscopic factors played a more 31
+ important role in developing non-motorized crash-frequency model than in developing motor 32
+ vehicle models. 33
+ Fourth, comparing model outputs developed based on 0.25 mile, 0.5 mile and 1 mile buffer 34
+ width data, models with macroscopic variables of 0.25 mile buffer width had the lowest AIC and 35
+ highest PRV, conversely, the models with macroscopic variables of 1 mile buffer width had the 36
+ highest AIC and lowest PRV in all three types of crash-frequency models by modes. Thus a 37
+ relatively smaller buffer width to extract macroscopic factors around the intersection would 38
+ provide a better estimate.  39
+ Finally, macroscopic factors of the surrounding zone of an intersection, such as ‘proportion 40
+ of home-based productions and attractions’, ‘proportion of college productions and attractions’, 41
+ ‘density of total population’, ‘proportion of population between age 16 and 64’, proportion of 42
+ workers commuting by public transportation and ‘proportion of workers commuting by walking’, 43
+ were demonstrated to have significant effects on intersection crashes; while these variables are 44
+ always ignored in traditionally micro-level (e.g., intersections and segments) crash frequency 45
+ model. This indicated that not only traffic volumes and road features but also macroscopic factors 46
+ should be considered in estimating crash risk and identifying crash-prone locations. 47
+ The topic of integrating macroscopic factors in intersection/segment-level crash-frequency 48
+ 
+
+ 
+16 
+ 
+model is emerging. This study has great research potential in pro-actively predicting crash risk 1
+ and identifying suitable countermeasures to reduce the crashes at “new” intersections/segments 2
+ as well as intersections/segments near “new” development. Nevertheless, several limitations 3
+ should be noted for this study. First, it is worthwhile to apply this model to other intersections 4
+ and regions in order to investigate spatial transferability of the calibrated models. In addition, 5
+ there may be some correlations among crash frequency by different transportation modes within 6
+ intersections, which is caused by some unobserved influential factors. Therefore, a simultaneous 7
+ model accounting for correlations of crashes among transportation modes, such as the 8
+ multivariate model, will be further explored to investigate this issue. 9
+ 
+Acknowledgements 10
+ This work was jointly supported by: 1) Natural Science Foundation of China (No.71371192, 11
+ No. 71561167001); 2) the Research Fund for Fok Ying Tong Education Foundation of Hong Kong 12
+ (142005); and 3) Fundamental Research Funds for the Central Universities of CSU (No. 13
+ 2016zzts050). We would like to thank Dr. Mohamed Abdel-Aty at the University of Central 14
+ Florida and the Florida Department of Transportation for providing the data. 15
+ 
+References 16
+ Abdel-Aty, M., Siddiqui, C., Huang, H., Wang, X., 2011. Integrating trip and roadway 17
+ characteristics to manage safety in traffic analysis zones. Transportation Research Record: 18
+ Journal of the Transportation Research Board 2213, 20-28. 19
+ Anastasopoulos, P.C., Mannering, F.L., 2009. A note on modeling vehicle accident frequencies 20
+ with random-parameters count models. Accident Analysis and Prevention 41, 153-159. 21
+ Christoffel, T., Gallagher, S., 1999. Injury Prevention and Public Health: Practical Knowledge, 22
+ Skills, and Strategies. Aspen Publishers Inc., Gaithersburg, MD. 23
+ Dong, N., Huang, H., Zheng, L., 2015. Support vector machine in crash prediction at the level of 24
+ traffic analysis zones: Assessing the spatial proximity effects. Accident Analysis and 25
+ Prevention 82, 192–198. 26
+ Dong, N., Huang, H., Lee, J., Gao, M., Abdel-Aty, M., 2016. Macroscopic hotspots identification: A 27
+ Bayesian spatio-temporal interaction approach. Accident Analysis and Prevention 92, 28
+ 256-264. 29
+ Huang, H., Abdel-Aty, M., Darwiche, A., 2010. County-level crash risk analysis in Florida: 30
+ Bayesian spatial modeling. Transportation Research Record: Journal of the Transportation 31
+ Research Board 2148, 27-37. 32
+ Huang H., Song B., Xu P., Zeng Q., Lee, J., Abdel-Aty, M., 2016. Macro and micro models for zonal 33
+ crash prediction with application in hot zones identification. Journal of Transport Geography, 34
+ 54, 248-256. 35
+ Jacobsen, P.L., 2003. Safety in numbers: More walkers and bicyclists, safer walking and bicycling. 36
+ Injury Prevention 9, 205-209. 37
+ Lee, C., Abdel-Aty, M., 2005. Comprehensive analysis of vehicle–pedestrian crashes at 38
+ intersections in Florida. Accident Analysis and Prevention 37, 775-786. 39
+ Lee, J., Abdel-Aty, M., Jiang X., 2015. Multivariate crash modeling for motor vehicle and 40
+ non-motorized modes at the macroscopic level. Accident Analysis and Prevention 78, 41
+ 146-154. 42
+ Lord, D., Mannering, F., 2010. The statistical analysis of crash-frequency data: A review and 43
+ assessment of methodological alternatives. Transportation Research Part A 44, 291-305. 44
+ Mitra, S., Washington, S., 2012. On the significance of omitted variables in intersection crash 45
+ modeling. Accident Analysis and Prevention 49, 439-448. 46
+ 
+
+ 
+17 
+ 
+Miranda-Moreno, L.F., Morency, P., El-Geneidy, A.M., 2011. The link between built environment, 1
+ pedestrian activity and pedestrian–vehicle collision occurrence at signalized intersections. 2
+ Accident Analysis and Prevention 43, 1624-1634. 3
+ Mannering, F.L., Bhat, C.R., 2014. Analytic methods in accident research: methodological frontier 4
+ and future directions. Analytic Methods in Accident Research 1, 1-22. 5
+ Mannering, F.L., Shankar, V., Bhat, C.R., 2016. Unobserved heterogeneity and the statistical 6
+ analysis of highway accident data. Analytic Methods in Accident Research 11, 1-16. 7
+ NHTSA, National Highway Traffic Safety Administration, FARS Data, 2013. 8
+ www-fars.nhtsa.dot.gov/Main/index.aspx 9
+ Pulugurtha, S.S., Sambhara, V.R., 2011. Pedestrian crash estimation models for signalized 10
+ intersections. Accident Analysis and Prevention 43, 439-446. 11
+ Quddus, M., 2008. Modeling area-wide count outcomes with spatial correlation and 12
+ heterogeneity: an analysis of London crash data. Accident Analysis and Prevention 40, 13
+ 1486-1497. 14
+ Raudenbush, S.W., Bryk, A.S., 2002. Hierarchical linear models: Applications and data analysis 15
+ methods, 2nd ed. Sage, Thousand Oaks. 16
+ Ryb, G.E., Dischinger, P.C., Kufera, J.A., Soderstrom, C.A., 2007. Social, behavioral and driving 17
+ characteristics of injured pedestrians: A comparison with other unintentional trauma patients. 18
+ Accident Analysis and Prevention 39, 313-318. 19
+ Strauss, J., Miranda-Moreno, L.F., Morency, P., 2013. Cyclist activity and injury risk analysis at 20
+ signalized intersections: a Bayesian modeling approach. Accident Analysis and Prevention 59, 21
+ 9-17. 22
+ Strauss, J., Miranda-Moreno, L.F., Morency, P., 2014. Multimodal injury risk analysis of road users 23
+ at signalized and non-signalized intersections. Accident Analysis and Prevention 71, 201-209. 24
+ Ukkusuri, S., Miranda-Moreno, L.F., Ramadurai G., Isa-Tavarez, J., 2012. The role of built 25
+ environment on pedestrian crash frequency. Safety science 50, 1141-1151. 26
+ Venkataraman, N., Ulfarsson, G.F., Shankar, V.N., 2013. Random parameter models of interstate 27
+ crash frequencies by severity, number of vehicles involved, collision and location type. 28
+ Accident Analysis and Prevention 59, 309-318. 29
+ Wang, J., Huang, H., 2016. Road network safety evaluation using Bayesian hierarchical joint 30
+ model. Accident Analysis and Prevention 90, 152-158. 31
+ Xie, K., Wang, X., Huang, H., Chen, X., 2013. Corridor-level signalized intersection safety analysis 32
+ in Shanghai, China using Bayesian hierarchical models. Accident Analysis and Prevention 50, 33
+ 25-33. 34
+ Xu, P., Huang, H., Dong, N., Abdel-Aty, M., 2014. Sensitivity analysis in the context of regional 35
+ safety modeling: Identifying and assessing the modifiable areal unit problem. Accident 36
+ Analysis and Prevention 70, 110–120. 37
+ Xu, P., Huang, H., 2015. Modeling crash spatial heterogeneity: Random parameter versus 38
+ geographically weighting. Accident Analysis and Prevention 75, 16-25. 39
+ Xu, P., Huang, H., Dong, N., Wong, S., 2016. Revisiting crash spatial heterogeneity: a Bayesian 40
+ spatially varying coefficients approach. Accident Analysis and Prevention, DOI: 41
+ 10.1016/j.aap.2016.10.015. 42
+ Zeng, Q., Huang, H., 2014. Bayesian spatial joint modeling of traffic crashes on an urban road 43
+ network. Accident Analysis and Prevention 67, 105-112

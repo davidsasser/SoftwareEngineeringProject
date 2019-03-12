@@ -71,20 +71,21 @@ stopwords += ['5', '6', '7', '8', '9', '10', '11', '2017', '']
 def removeStopwords(wordlist, stopwords):
     return [w for w in wordlist if w not in stopwords]
 
-doc = input()
-document_text = open(doc, 'r')
-text_string = document_text.read().lower()
+def getWords(doc):
+    document_text = open(doc, 'r')
+    text_string = document_text.read().lower()
 
 
-fullwordlist = stripNonAlphaNum(text_string)
-str1 = ' '.join(fullwordlist)
-match_pattern = re.findall(r'\b[a-z]{3,30}\b', str1)
-wordlist = removeStopwords(match_pattern, stopwords)
-dictionary = wordListToFreqDict(wordlist)
-sorteddict = sortFreqDict(dictionary)
+    fullwordlist = stripNonAlphaNum(text_string)
+    str1 = ' '.join(fullwordlist)
+    match_pattern = re.findall(r'\b[a-z]{3,30}\b', str1)
+    wordlist = removeStopwords(match_pattern, stopwords)
+    dictionary = wordListToFreqDict(wordlist)
 
-sorted_freq = [pair[0] for pair in sorted(dictionary.items(), key=lambda item: item[1])]
-sorted_freq.reverse()
+    sorted_freq = [pair[0] for pair in sorted(dictionary.items(), key=lambda item: item[1])]
+    sorted_freq.reverse()
+    sorted_list = []
+    for words in sorted_freq[:10]:
+        sorted_list.append(words)
 
-for words in sorted_freq[:10]:
-    print('*' + words + '*')
+    return sorted_list
