@@ -16,7 +16,7 @@ global.document = document;
 var $ = jQuery = require('jquery')(window);
 
 router.use(function (req,res,next) {
-	console.log("/" + req.method);
+	//console.log("/" + req.method);
 	next();
 });
   
@@ -97,8 +97,8 @@ function authenticationMiddleware() {
 }
 
 router.get("/",function(req,res){
-	console.log(req.user);
-	console.log(req.isAuthenticated());
+	//console.log(req.user);
+	//console.log(req.isAuthenticated());
 	res.render('index', {active: { home: true }});
 });
 
