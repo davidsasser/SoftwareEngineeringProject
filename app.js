@@ -72,7 +72,7 @@ passport.use(new LocalStrategy(
         }
         else {
           const hash = results.rows[0].password.toString();
-
+          console.log(typeof results.rows[0].needsPasswordChange)
           bcrypt.compare(password, hash, function(err, response) {
             if (response == true) {
               return done(null, {user_id: results.rows[0].user_id});
