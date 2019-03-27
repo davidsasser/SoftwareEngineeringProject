@@ -1,6 +1,5 @@
 import string
 import re
-import docxpy
 
 def stripNonAlphaNum(text):
     import re
@@ -73,8 +72,7 @@ def removeStopwords(wordlist, stopwords):
     return [w for w in wordlist if w not in stopwords]
 
 def getWords(doc):
-    text_string = docxpy.process(doc)
-
+    text_string = open(doc).read()
 
     fullwordlist = stripNonAlphaNum(text_string)
     str1 = ' '.join(fullwordlist)

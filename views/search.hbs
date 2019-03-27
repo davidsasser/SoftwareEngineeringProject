@@ -1,8 +1,10 @@
 {{> header }}
 
         <div class="search-container">
-            <input type="text" class="search-bar"></input>
-            <button>Search</button>
+          <form method="post" action="/search">
+            <input type="text" name="keyword" class="search-bar"></input>
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
         </div>
         <span class="counter pull-right"></span>
         <table class="result-table table table-hover table-bordered results">
@@ -36,5 +38,8 @@
             </tr>
           </tbody>
         </table>
+        <ul class="people_list">
+            <li>{{{json docs.doc_0}}}</li>
+        </ul>
 
 {{> footer }}

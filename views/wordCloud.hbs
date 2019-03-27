@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="/js/d3.layout.cloud.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+
+</head>
+<body>
+<iframe name='messageTxt' src='/docs/1.txt' style='display:none'></iframe>
+<form>
+<textarea style="display:none" id="input" name='nMessage'></textarea>
+</form>
+
+
+
+<script>
+
+function init() {
+    var extText = window.frames.messageTxt.document.body.lastChild.lastChild.data;
+    extText = extText.replace(/[\r\n]/g," ");
+    document.forms[0].nMessage.value = extText;
+    generate();
+}
+
+window.onload=init
+
+var container = "svg";
+
+var w = 1000;
+var h = 900;
+
+
+
+var wordSize;
+var layout;
+
+function generate() {
+	wordSize = 12;
+	var str = d3.select("#input").property("value");
+
+    // TO DO:
+    // Need to generate frequency number into the database to establish the weight for the word cloud.
+
+	var list = str.split(/[\s.,]+/);
+
+	result = { };
+	for(i = 0; i < list.length; ++i) {
+		if(!result[list[i]])
+			result[list[i]] = 0;
+		++result[list[i]];
+	}
+
+	var newList = _.uniq(list);
+
+
+	var frequency_list = [];
+	var len = newList.length;
+	for (var i = 0; i < len; i++) {
+
+		var temp = newList[i];
+		frequency_list.push({
+			text : temp,
+			freq : result[newList[i]],
+			time : 0 
+		});
+ 
+	}
+	frequency_list.sort(function(a,b) { return parseFloat(b.freq) - parseFloat(a.freq) } );  
+    //frequency_list = firstN(frequency_list, 10);
+    //frequency_list = { 0: frequency_list[0], 1: frequency_list[1], 2: frequency_list[2], 3: frequency_list[3], 4: frequency_list[4], 5: frequency_list[5], 6: frequency_list[6], 7: frequency_list[7], 8: frequency_list[8], 9: frequency_list[9] }
+    //console.log(frequency_list)
+	for(var t = 0 ; t < frequency_list.length ; t++)
+	{
+	var addTime = (100 * t) +500;
+	frequency_list[t].time=addTime;
+	}
+
+
+		for(i in frequency_list){
+			if(frequency_list[i].freq*wordSize > 160)	
+				wordSize = 3;
+		}
+		
+		
+var sizeScale = d3.scale.linear()
+                       .domain([0, d3.max(frequency_list, function(d) { return d.freq} )])
+                                        .range([10, 95]); // 95 because 100 was causing stuff to be missing
+
+	
+		layout = d3.layout.cloud().size([w, h])
+        .words(frequency_list)
+        .padding(5)
+	    .rotate(function() { return ~~(Math.random() * 2) * 90; })
+	    .font("Impact")
+	    .fontSize(function(d) { return sizeScale(d.freq); })
+		  .on("end",draw)
+		  .start();
+    }
+
+function firstN(obj, n) {
+  return Object.keys(obj) //get the keys out
+    .sort() //this will ensure consistent ordering of what you will get back. If you want something in non-aphabetical order, you will need to supply a custom sorting function
+    .slice(0, n) //get the first N
+    .reduce(function(memo, current) { //generate a new object out of them
+      memo[current] = obj[current]
+      return memo;
+    }, {})
+}
+    function draw(words) {
+	
+		
+var fill = d3.scale.category20();
+
+		d3.select(container).remove();
+
+        d3.select("body").append(container)
+        .attr("width", w)
+        .attr("height", h) 
+	     	.append("g")
+        .attr("transform", "translate(" + [w/2, h/2] + ")")
+      	.selectAll("text")
+        .data(words)
+      	.enter().append("text")
+		  
+		.transition()
+		.duration(function(d) { return d.time}  )
+		.attr('opacity', 1)
+        .style("font-size", function(d) { return d.size + "px"; })
+        .style("font-family", "Impact")
+          .style("fill", function(d, i) { return fill(i); })
+        .attr("text-anchor", "middle")
+		.attr("transform", function(d) {
+          return "rotate(" + d.rotate + ")";
+        })
+        .attr("transform", function(d) {
+          return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+        })
+        .text(function(d) { return d.text; });
+
+    }
+	
+
+               
+ 
+
+</script>
+
+</body>
+
+
+</html>

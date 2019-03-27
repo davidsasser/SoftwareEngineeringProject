@@ -10,6 +10,8 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var flash = require('express-flash-notification');
 var bcrypt = require('bcrypt');
+var ejs = require('ejs');
+var engines = require('consolidate');
 var app = express();
 
 // include all of our js modules
@@ -34,14 +36,21 @@ app.use(passport.session());
 
 app.use(express.static(__dirname + '/assets'));
 app.set('views', path.join(__dirname, 'views'));
+//app.engine('ejs', engines.ejs);
+
+//app.engine('handlebars', engines.handlebars);
 app.set('view engine', 'hbs');
 var hbs = require('express-handlebars');
+
 app.engine('hbs', hbs({
   extname: 'hbs',  
   partialsDir  : [
       //  path to your partials
       path.join(__dirname, 'views/partials'),
-  ]
+  ],
+  helpers: {
+    json: function (context, options) { return JSON.stringify(context); }
+  }
 }));
 
 

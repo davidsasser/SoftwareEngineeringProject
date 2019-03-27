@@ -6,11 +6,13 @@ import wordFreq as wf
 def getSortList(doc):
     return wf.getWords(doc)
 
-docs = ['1', '2' ,'3', '4', '5', '6','7', '8', '9', '10', '11']
+docs = ['1', '2' ,'3', '4']
 
 for doc in docs:
-    sorted_list = getSortList('./docs/' + doc + '.docx')
-    doc_name = doc + '.docx'
+    fileLocation = './docs/' + doc + '.txt'
+    sorted_list = wf.getWords(fileLocation)
+    doc_title = open(fileLocation).readline()
+    doc_name = doc + '.txt'
     print(sorted_list)
 
     try:
@@ -20,8 +22,8 @@ for doc in docs:
                                         port="5432",
                                         database="groupc_test")
         cursor = connection.cursor()
-        postgres_insert_query = """ INSERT INTO documents (doc_name) VALUES (%s) RETURNING doc_id; """
-        record_to_insert = (doc_name,)
+        postgres_insert_query = """ INSERT INTO documents (doc_name, doc_title) VALUES (%s,%s) RETURNING doc_id; """
+        record_to_insert = (doc_name, doc_title)
         cursor.execute(postgres_insert_query, record_to_insert)
         doc_id = cursor.fetchone()[0]
         connection.commit()

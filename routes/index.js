@@ -32,6 +32,10 @@ router.get('/logout', (req, res) => {
 	res.redirect('/');
 })
 
+router.get('/wordcloud', (req, res) => {
+	res.render('wordCloud');
+})
+
 router.get('/resetpassword/:id/:token', (req, res) => {
     db.query('SELECT password, created_on FROM user_account WHERE user_id = $1', [req.params.id], function(err, results, fields) {
 		var password = results.rows[0].password;
@@ -190,12 +194,23 @@ router.get("/",function(req,res){
 	res.render('index', {active: { home: true }});
 });
 
-router.post("/search", authenticationMiddleware(), (req,res) => {
-	var keywords = req.body.keyword
-});
-router.get("/search", authenticationMiddleware(), (req,res) => {
+router.post('/search', (req, res) => {
+	var keywords = req.body.keyword;
+	keywords = keywords.replace(/\s+/g, '');
+	var each_keyword = keywords.split(",")
+	var each_doc = {};
+	console.log(each_keyword);
+	db.query('SELECT doc_name FROM documents d INNER JOIN keywords k ON d.doc_id = k.doc_id WHERE k.keyword = $1', [each_keyword[0]], (err, results, fields) => {
+		if(err) {done(err)}
+		for(var i = 1; i<=results.rows.length; i++) {
+			each_doc[`doc_${i}`] = results.rows[i-1].doc_name;
+		}
+		res.render('search', {active: { search: true }, docs: each_doc});
+	});
 	
+})
 
+router.get("/search", authenticationMiddleware(), (req,res) => {
 	res.render('search', {active: { search: true }});
 });
 
