@@ -10,7 +10,7 @@ docs = ['1', '2' ,'3', '4']
 
 for doc in docs:
     fileLocation = './docs/' + doc + '.txt'
-    sorted_list = wf.getWords(fileLocation)
+    sorted_list, sorted_num = wf.getWords(fileLocation)
     doc_title = open(fileLocation).readline()
     doc_name = doc + '.txt'
     print(sorted_list)
@@ -30,9 +30,9 @@ for doc in docs:
         count = cursor.rowcount
         print (count, "Record inserted successfully into mobile table")
         for i in range(0,10):
-            postgres_insert_query = """ INSERT INTO keywords (doc_id, keyword, keyword_rank) VALUES (%s,%s,%s); """
+            postgres_insert_query = """ INSERT INTO keywords (doc_id, keyword, keyword_rank, frequency) VALUES (%s,%s,%s,%s); """
             rank = i+1
-            record_to_insert = (doc_id, sorted_list[i], (i+1))
+            record_to_insert = (doc_id, sorted_list[i], (i+1), sorted_num[i])
             cursor.execute(postgres_insert_query, record_to_insert)
             connection.commit()
             count = cursor.rowcount

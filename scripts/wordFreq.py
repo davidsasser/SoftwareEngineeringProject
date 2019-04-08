@@ -83,7 +83,9 @@ def getWords(doc):
     sorted_freq = [pair[0] for pair in sorted(dictionary.items(), key=lambda item: item[1])]
     sorted_freq.reverse()
     sorted_list = []
+    sorted_num = []
     for words in sorted_freq[:10]:
         sorted_list.append(words)
+        sorted_num.append(dictionary.get(words))
 
-    return sorted_list
+    return sorted_list, sorted_num
