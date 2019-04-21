@@ -1,13 +1,36 @@
 {{> header }}
 
 
-<center>
-
-<h3 style="color:blue;">Your Selected Document:</h3> <br>
-<div style="height:600px;width:65%;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-  This HTML scroll box has had color added. You can add <span style="background-color: yellow;">color</span> to the background of your scroll box. You can also add color to the scroll bars.
+<h3 style="color:blue;text-align:center">Your Selected Document:</h3> <br>
+<div style="width:100%;height:600px">
+<div style="margin-left:4.5%;float:left;height:600px;width:65%;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+  {{> doc}}
   </div>
-  <a href="/wordcloud">Generate Word Cloud</a>
-</center>
+  
+  {{#if keywords}}
+          <table class="table table-hover table-bordered results" style="float:right;width:25%;margin-right:4.5%;">
+          <thead>
+            <tr>
+              <th id="first-col" class="col-sm-3">Rank</th>
+              <th id="second-col" class="col-sm-3">Word</th>
+              <th id="second-col" class="col-sm-3">Color</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{#each keywords}}
+            <tr>
+              <th scope="row">{{inc @index}}</th>
+              <td>{{this}}</td>
+              <td class="key{{inc @index}}"></td>
+            </tr>
+          {{/each}}
+          </tbody>
+        </table>
+        {{/if}}
 
+</div>
+<center>
+  <br>
+<a class="btn btn-primary" style="text-align:center" href="/wordcloud?id={{ id }}">Generate Word Cloud</a>
+</center>
 {{> footer }}

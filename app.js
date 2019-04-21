@@ -13,9 +13,11 @@ var bcrypt = require('bcrypt');
 var ejs = require('ejs');
 var engines = require('consolidate');
 var app = express();
+const fileUpload = require('express-fileupload');
+app.use(fileUpload());
 
 // include all of our js modules
-var db = require('./db.js');
+var db = require('./helpers/db.js');
 var index = require('./routes/index.js');
 
 app.use(cookieParser());
@@ -49,7 +51,7 @@ app.engine('hbs', hbs({
       path.join(__dirname, 'views/partials'),
   ],
   helpers: {
-    json: function (context, options) { return JSON.stringify(context); }
+    inc: function(value, options) { return parseInt(value) + 1; }
   }
 }));
 
@@ -66,32 +68,59 @@ app.use(function(req, res, next) {
   next();
 });
 
+// to store whether a user is an administrator
+app.use(function(req, res, next) {
+  if (req.user != null) {
+    res.locals.isAdmin = req.user.role;
+  }
+  next();
+});
+
 // to load homepage
 app.use("/", index);
+
+app.post("/request_add", (req,res) => {
+	let sampleFile = req.files.sampleFile;
+
+  // Use the mv() method to place the file somewhere on your server
+  sampleFile.mv('./scripts/docs/' + sampleFile.name, function(err) {
+    if (err)
+      return res.status(500).send(err);
+      db.query('INSERT INTO requests(doc_name, request_type) VALUES ($1, \'add\')', [sampleFile.name], function(err, results, fields) {
+        if(err) {done(err)}
+
+      });
+  });
+	res.redirect('/')
+});
 
 // authenticate the user
 passport.use(new LocalStrategy(
   function(username, password, done) {
+    db.query('SELECT user_id, password, is_admin FROM user_account WHERE username = $1', [username], function(err, results, fields) {
+      if(err) {done(err)}
 
-      db.query('SELECT user_id, password FROM user_account WHERE username = $1', [username], function(err, results, fields) {
-        if(err) {done(err)}
-
-        if (results.length == 0) {
-          done(null, false);
-        }
-        else {
-          const hash = results.rows[0].password.toString();
-          console.log(typeof results.rows[0].needsPasswordChange)
-          bcrypt.compare(password, hash, function(err, response) {
-            if (response == true) {
-              return done(null, {user_id: results.rows[0].user_id});
-            }
-            else {
-              return done(null, false);
-            }
-          });
-        }
-      })
+      if (results.length == 0) {
+        done(null, false);
+      }
+      else {
+        const hash = results.rows[0].password.toString();
+        bcrypt.compare(password, hash, function(err, response) {
+          if (response == true) {
+            var today = new Date();
+            var last_login = today.toISOString().split('.')[0]+"Z";
+            db.query('UPDATE user_account SET last_login = $1 WHERE username = $2', [last_login, username], function(err1, results1, fields1) {
+              if(err1) {done(err1)}
+              return done(null, {user_id: results.rows[0].user_id, role: results.rows[0].is_admin});
+            });
+          }
+          else {
+            return done(null, false);
+          }
+        });
+      }
+    })
+    
   }
 ));
 

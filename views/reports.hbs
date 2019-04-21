@@ -1,0 +1,29 @@
+{{> header }}
+
+<div class="container">
+    <div>
+    <form style="display: inline;" action="/reports" method="POST">
+        <button type="submit" class="btn">Generate Report</button>
+    </form>
+    <a href="/requests" style="float:right;color:white;" class="btn btn-primary">Requests</a>
+    </div>
+    
+    <br>
+    <h3>Number of users in the past 24 hours: {{user_count}}</h3>
+    <h3>Number of successful searches in the past 24 hours: {{successful}}</h3>
+    <h3>Number of unsuccessful searches in the past 24 hours: {{failure}}</h3>
+    <h3>Titles added in the past week: </h3>
+    {{#if add}}
+        {{#each add}}
+            <p style="padding-left: 50px; margin-bottom: 0; ">{{this}}</p>
+        {{/each}}
+    {{/if}}
+    <h3>Titles deleted in the past week: </h3>
+    {{#if delete}}
+        {{#each delete}}
+            <p style="padding-left: 50px;">{{this}}</p>
+        {{/each}}
+    {{/if}}
+</div>
+
+{{> footer }}

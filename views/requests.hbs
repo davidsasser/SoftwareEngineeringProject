@@ -1,0 +1,38 @@
+{{> header }}
+        <br><br>
+        {{#if requests}}
+          <table class="result-table table table-hover table-bordered results">
+          <thead>
+                <tr>
+                    <th id="first-col" class="col-sm-3">#</th>
+                    <th id="second-col" class="col-sm-6">Document Name</th>
+                    <th id="second-col" class="col-sm-3">Request Type</th>
+                    <th id="second-col" class="col-sm-3">Approval Decision</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{#each requests}}
+            <tr>
+                <th scope="row">{{inc @index}}</th>
+                <td>{{this.name}}</td>
+                <td style="text-transform:uppercase;">{{this.type}}</td>
+                <td>
+                    <form style="display:inline;padding-right:5px;;" method="post" action="/{{this.type}}_document">
+                        <input type="text" name="doc" style="display:none;" value="{{this.name}}"></input>
+                        <button class="btn btn-primary">Approve</button>
+                    </form>
+                    <form style="display:inline;" method="post" action="/decline_request">
+                        <input type="text" name="doc" style="display:none;" value="{{this.name}}"></input>
+                        <button class="btn btn-primary">Decline</button>
+                    </form>
+                </td>
+            </tr>
+          {{/each}}
+          </tbody>
+        </table>
+        {{else}}
+          <div style="text-align: center">
+            There are no requests to add or delete documents at this time.
+          </div>
+        {{/if}}
+{{> footer }}

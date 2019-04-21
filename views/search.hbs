@@ -1,5 +1,11 @@
 {{> header }}
-
+        {{#if errors}}
+          {{#each errors}}
+            <div class="alert alert-danger">
+                {{this.msg}}
+            </div>
+          {{/each}}
+        {{/if}}
         <div class="search-container">
           <form method="post" action="/search">
             <input type="text" name="keyword" class="search-bar"></input>
@@ -7,7 +13,8 @@
           </form>
         </div>
         <span class="counter pull-right"></span>
-        <table class="result-table table table-hover table-bordered results">
+        {{#if docs}}
+          <table class="result-table table table-hover table-bordered results">
           <thead>
             <tr>
               <th id="first-col" class="col-sm-3">#</th>
@@ -16,30 +23,24 @@
             </tr>
           </thead>
           <tbody>
+          {{#each docs}}
             <tr>
-              <th scope="row">1</th>
-              <td><a href="/document">Development of Crash Modification Factors for Uncontrolled Pedestrian Crossing Treatments</a></td>
-              <td><a href="#">Delete</a></td>
+              <th scope="row">{{inc @index}}</th>
+              <td><a href="/document?title={{this.title}}&id={{this.id}}">{{this.title}}</a></td>
+              <td>
+                <form style="display:inline;" method="post" action="/request_delete">
+                  <input type="text" name="doc" style="display:none;" value="{{this.title}}"></input>
+                  <button class="btn btn-primary">Request Deletion</button>
+                </form>
+              </td>
             </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td><a href="/document">Second Document</a></td>
-              <td><a href="#">Delete</a></td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td><a href="/document">Third Document</a></td>
-              <td><a href="#">Delete</a></td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td><a href="/document">Fourth Document</a></td>
-              <td><a href="#">Delete</a></td>
-            </tr>
+          {{/each}}
           </tbody>
         </table>
-        <ul class="people_list">
-            <li>{{{json docs.doc_0}}}</li>
-        </ul>
+        {{else}}
+          <div style="text-align: center">
+            Please enter keywords into the search bar separated by commas (up to 4 terms) to find relavent documents.
+          </div>
+        {{/if}}
 
 {{> footer }}

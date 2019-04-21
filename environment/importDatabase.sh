@@ -10,6 +10,8 @@ PGPASSWORD=postgres psql --username=postgres --dbname=groupc_test --file=./sql/u
 PGPASSWORD=postgres psql --username=postgres --dbname=groupc_test --file=./sql/session.sql
 PGPASSWORD=postgres psql --username=postgres --dbname=groupc_test --file=./sql/keywords.sql
 PGPASSWORD=postgres psql --username=postgres --dbname=groupc_test --file=./sql/documents.sql
+PGPASSWORD=postgres psql --username=postgres --dbname=groupc_test --file=./sql/searches.sql
+PGPASSWORD=postgres psql --username=postgres --dbname=groupc_test --file=./sql/requests.sql
 
 
 

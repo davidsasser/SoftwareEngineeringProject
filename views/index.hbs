@@ -5,9 +5,15 @@
 <div style="padding-left:20px">
 
 <h2>Welcome! We are here to help you to find matching papers with your interest! </h2>
-
+<br>
+{{#if isAuthenticated}}
+<a class="btn btn-primary" href="/request_add" style="width:auto;">Add a Document</a>
+<a class="btn btn-primary" href="/logout" style="width:auto;">Logout</a>
+{{else}}
 <a class="btn btn-primary" href="/login" style="width:auto;">Login</a>
 <a class="btn btn-primary" href="/register" style="width:auto;">Sign Up</a>
+{{/if}}
+
 </center>
 
 

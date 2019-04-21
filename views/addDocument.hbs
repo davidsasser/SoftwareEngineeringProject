@@ -1,0 +1,12 @@
+{{> header }}
+
+    <center>
+    <h3>Select a file you would like to be added.</h3>
+<br>
+    <form action="/request_add" method="post" encType="multipart/form-data">
+        <input type="file" name="sampleFile"><br><br>
+        <button  type="submit" class="btn btn-primary">Request to add</button>
+    </form>
+    </center>
+
+{{> footer }}
