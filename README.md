@@ -49,4 +49,4 @@ npm start
 * **David Sasser**
 * **Samira Soleimani**
 * **Karameh Mohammadiporshokooh**
-* **Bazhoang Wang**
+* **Baozhong Wang**
