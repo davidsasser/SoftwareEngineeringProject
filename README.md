@@ -6,7 +6,7 @@ This is the final project for CSC 7135. It is a Node/Express project with a Post
 * David Sasser
 * Samira Soleimani
 * Karameh Mohammadiporshokooh
-* Bazhong Wang
+* Baozhong Wang
 
 ## Getting Started
 
