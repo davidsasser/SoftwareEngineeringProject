@@ -1,26 +1,9 @@
 {{> header }}
-
-<div>
-	{{#if frequency}}
-		<table class="result-table table table-hover table-bordered results">
-		<thead>
-			<tr>
-				<th id="second-col" class="col-sm-6">Word</th>
-				<th id="second-col" class="col-sm-3">Frequency</th>
-			</tr>
-		</thead>
-		<tbody>
-		{{#each frequency}}
-			<tr>
-				<td><a>{{this.word}}</a></td>
-				<td><a>{{this.freq}}</a></td>
-			</tr>
-		{{/each}}
-		</tbody>
-	</table>
-	{{/if}}
+<center>
+<div class="wordcloud">
+	
 </div>
-
+</center>
 
 
 <script>
@@ -92,7 +75,7 @@ var fill = d3.scale.category20();
 
 		d3.select(container).remove();
 
-        d3.select("body").append(container)
+        d3.select("div.wordcloud").append(container)
         .attr("width", w)
         .attr("height", h) 
 	     	.append("g")

@@ -24,4 +24,4 @@ INSERT INTO user_account(
     VALUES ('david', '$2a$10$iAc8NevR8Asw6pnp5dO5AO1Az8RRAeN/iLTh6dMhoCPnooVHh1XvO', 'dsasse4@lsu.edu', now()::timestamp(0), true);
 INSERT INTO user_account(
     "username", "password", "email", "created_on")
-    VALUES ('test', '$2a$10$iAc8NevR8Asw6pnp5dO5AO1Az8RRAeN/iLTh6dMhoCPnooVHh1XvO', 'david.sasser95@gmail.com', now()::timestamp(0));
+    VALUES ('test', '$2a$10$iAc8NevR8Asw6pnp5dO5AO1Az8RRAeN/iLTh6dMhoCPnooVHh1XvO', 'sepgroupc@gmail.com', now()::timestamp(0));

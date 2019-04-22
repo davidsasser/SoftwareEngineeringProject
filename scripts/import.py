@@ -20,7 +20,7 @@ for doc in docs:
                                         password="postgres",
                                         host="127.0.0.1",
                                         port="5432",
-                                        database="groupc_test")
+                                        database="Group_C")
         cursor = connection.cursor()
         postgres_insert_query = """ INSERT INTO documents (doc_name, doc_title, added_on) VALUES (%s,%s,%s) RETURNING doc_id; """
         now = dt.datetime.utcnow().replace(microsecond=0)

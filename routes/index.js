@@ -26,7 +26,7 @@ router.use(function (req,res,next) {
 });
   
 router.post('/login', passport.authenticate('local', {
-	successRedirect: '/search',
+	successRedirect: '/',
 	failureRedirect: '/login'
 }));
 
@@ -118,7 +118,7 @@ router.post('/forgotpassword', (req, res) => {
 			var url = `http://localhost:8000/resetpassword/${payload.id}/${token}`
 			var mailOptions = {
 				from: process.env.EMAIL_FROM,
-				to: process.env.EMAIL_TO, //email var needs to be used
+				to: email, //email var needs to be used
 				subject: 'Your password has been changed.',
 				html: `<p>Please use the following link to change your password:</p><p><a href="${url}">Reset Password</a></p>`
 			};
@@ -127,7 +127,7 @@ router.post('/forgotpassword', (req, res) => {
 				if (error) {
 					console.log(error);
 				} else {
-					console.log('Email sent: ' + info.response);
+					res.redirect('/');
 				}
 			});
 		}
@@ -354,9 +354,10 @@ router.post("/add_document", authenticationMiddleware(), (req,res) => {
 			var doc_title = doc_name.split('.')[0];
 			var today = new Date();
 			var added_on = today.toISOString().split('.')[0];
+			console.log([doc_name, doc_title, added_on])
 
 			db.query('INSERT INTO documents (doc_name, doc_title, added_on) VALUES ($1,$2,$3) RETURNING doc_id', [doc_name, doc_title, added_on], (err, results, fields) => {
-				if(err) {done(err)}
+				if(err) {console.log(err)}
 				var doc_id = results.rows[0].doc_id;
 				console.log(typeof doc_id)
 				for(var i = 0; i<10; i++) {
@@ -409,7 +410,7 @@ router.post("/request_delete", authenticationMiddleware(), (req,res) => {
 	var doc_name = req.body.doc + '.docx';
 	db.query('INSERT INTO requests(doc_name, request_type) VALUES ($1, \'delete\')', [doc_name], function(err, results, fields) {
 		if(err) {done(err)}
-
+			res.redirect('/search')
 	});
 });
 

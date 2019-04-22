@@ -16,20 +16,21 @@ You will need to install Node.js and PostgreSQL to run this project.
 
 * [Node.js](https://nodejs.org/en/)
 * [PostgreSQL](https://www.postgresql.org/download/)
+    * Create the root postgres user with the password postgres
 
 ### Installing
 
 Once both are installed and the project is cloned you will need to:
 
-1. Create a database called groupc_test.
-2. Import the database tables by running:
+1. Create a database called Group_C.
+2. Update Line 6 to use your local PostgreSQL installation:
+```
+export PATH=[YOUR LOCAL PATH]:$PATH
+```
+3. Import the database tables by running:
 ```
 cd enviornment
 importDatabase.sh
-```
-3. Set up your enviornment config file by running:
-```
-cp .env.default .env
 ```
 4. Install node modules by running:
 ```
